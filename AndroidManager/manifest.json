@@ -1,0 +1,1829 @@
+{
+    "actions": [
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getDevices_code.js",
+                    "name": "AndroidManager_getDevices_code"
+                }
+            ],
+            "description": {
+                "en": "Get Devices List",
+                "ru": "Получить список устройств"
+            },
+            "interface": "AndroidManager_getDevices_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getDevices",
+            "select": "AndroidManager_getDevices_select.js",
+            "template": "{{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_startAppiumServer_code.js",
+                    "name": "AndroidManager_startAppiumServer_code"
+                }
+            ],
+            "description": {
+                "en": "Start Server",
+                "ru": "Запустить сервер"
+            },
+            "interface": "AndroidManager_startAppiumServer_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_startAppiumServer",
+            "select": "AndroidManager_startAppiumServer_select.js",
+            "template": "{{host}}:{{port}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_stopAppiumServer_code.js",
+                    "name": "AndroidManager_stopAppiumServer_code"
+                }
+            ],
+            "description": {
+                "en": "Stop Server",
+                "ru": "Остановить сервер"
+            },
+            "interface": "AndroidManager_stopAppiumServer_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_stopAppiumServer",
+            "select": "AndroidManager_stopAppiumServer_select.js",
+            "template": ""
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_connectDevice_code.js",
+                    "name": "AndroidManager_connectDevice_code"
+                }
+            ],
+            "description": {
+                "en": "Connect to Device",
+                "ru": "Подключиться к устройству"
+            },
+            "interface": "AndroidManager_connectDevice_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_connectDevice",
+            "select": "AndroidManager_connectDevice_select.js",
+            "template": "{{serial}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_stopDevice_code.js",
+                    "name": "AndroidManager_stopDevice_code"
+                }
+            ],
+            "description": {
+                "en": "Disconnect from Device",
+                "ru": "Отключиться от устройства"
+            },
+            "interface": "AndroidManager_stopDevice_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_stopDevice",
+            "select": "AndroidManager_stopDevice_select.js",
+            "template": "{{serial}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getCurrentActivity_code.js",
+                    "name": "AndroidManager_getCurrentActivity_code"
+                }
+            ],
+            "description": {
+                "en": "Get Current Activity",
+                "ru": "Получить текущее активити"
+            },
+            "interface": "AndroidManager_getCurrentActivity_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getCurrentActivity",
+            "select": "AndroidManager_getCurrentActivity_select.js",
+            "template": "{{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getInstalledApps_code.js",
+                    "name": "AndroidManager_getInstalledApps_code"
+                }
+            ],
+            "description": {
+                "en": "Get Installed Apps",
+                "ru": "Получить установленные приложения"
+            },
+            "interface": "AndroidManager_getInstalledApps_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getInstalledApps",
+            "select": "AndroidManager_getInstalledApps_select.js",
+            "template": "{{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_isAppRunning_code.js",
+                    "name": "AndroidManager_isAppRunning_code"
+                }
+            ],
+            "description": {
+                "en": "Is App Running",
+                "ru": "Запущено ли приложение"
+            },
+            "interface": "AndroidManager_isAppRunning_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_isAppRunning",
+            "select": "AndroidManager_isAppRunning_select.js",
+            "template": "{{appName}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_openApp_code.js",
+                    "name": "AndroidManager_openApp_code"
+                }
+            ],
+            "description": {
+                "en": "Open App",
+                "ru": "Открыть приложение"
+            },
+            "interface": "AndroidManager_openApp_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_openApp",
+            "select": "AndroidManager_openApp_select.js",
+            "template": "{{appName}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_closeApp_code.js",
+                    "name": "AndroidManager_closeApp_code"
+                }
+            ],
+            "description": {
+                "en": "Close App",
+                "ru": "Закрыть приложение"
+            },
+            "interface": "AndroidManager_closeApp_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_closeApp",
+            "select": "AndroidManager_closeApp_select.js",
+            "template": "{{appName}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_clearAppCache_code.js",
+                    "name": "AndroidManager_clearAppCache_code"
+                }
+            ],
+            "description": {
+                "en": "Clear App Cache",
+                "ru": "Очистить кэш приложения"
+            },
+            "interface": "AndroidManager_clearAppCache_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_clearAppCache",
+            "select": "AndroidManager_clearAppCache_select.js",
+            "template": "{{appName}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_isAppInstalled_code.js",
+                    "name": "AndroidManager_isAppInstalled_code"
+                }
+            ],
+            "description": {
+                "en": "Is App Installed",
+                "ru": "Установлено ли приложение"
+            },
+            "interface": "AndroidManager_isAppInstalled_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_isAppInstalled",
+            "select": "AndroidManager_isAppInstalled_select.js",
+            "template": "{{appName}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_installApp_code.js",
+                    "name": "AndroidManager_installApp_code"
+                }
+            ],
+            "description": {
+                "en": "Install App",
+                "ru": "Установить приложение"
+            },
+            "interface": "AndroidManager_installApp_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_installApp",
+            "select": "AndroidManager_installApp_select.js",
+            "template": "{{appPath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_uninstallApp_code.js",
+                    "name": "AndroidManager_uninstallApp_code"
+                }
+            ],
+            "description": {
+                "en": "Uninstall App",
+                "ru": "Удалить приложение"
+            },
+            "interface": "AndroidManager_uninstallApp_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_uninstallApp",
+            "select": "AndroidManager_uninstallApp_select.js",
+            "template": "{{appName}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_clickByXpath_code.js",
+                    "name": "AndroidManager_clickByXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Click by Xpath",
+                "ru": "Клик по xpath"
+            },
+            "interface": "AndroidManager_clickByXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_clickByXpath",
+            "select": "AndroidManager_clickByXpath_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_clickByCoordinates_code.js",
+                    "name": "AndroidManager_clickByCoordinates_code"
+                }
+            ],
+            "description": {
+                "en": "Click by Coordinates",
+                "ru": "Клик по координатам"
+            },
+            "interface": "AndroidManager_clickByCoordinates_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_clickByCoordinates",
+            "select": "AndroidManager_clickByCoordinates_select.js",
+            "template": "({{coordX}}, {{coordY}})"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_longClickByXpath_code.js",
+                    "name": "AndroidManager_longClickByXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Long Click by Xpath",
+                "ru": "Долгий клик по xpath"
+            },
+            "interface": "AndroidManager_longClickByXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_longClickByXpath",
+            "select": "AndroidManager_longClickByXpath_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_longClickByCoordinates_code.js",
+                    "name": "AndroidManager_longClickByCoordinates_code"
+                }
+            ],
+            "description": {
+                "en": "Long Click by Coordinates",
+                "ru": "Долгий клик по координатам"
+            },
+            "interface": "AndroidManager_longClickByCoordinates_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_longClickByCoordinates",
+            "select": "AndroidManager_longClickByCoordinates_select.js",
+            "template": "({{coordX}}, {{coordY}})"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_dragByCoordinates_code.js",
+                    "name": "AndroidManager_dragByCoordinates_code"
+                }
+            ],
+            "description": {
+                "en": "Drag Element",
+                "ru": "Перетащить элемент"
+            },
+            "interface": "AndroidManager_dragByCoordinates_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_dragByCoordinates",
+            "select": "AndroidManager_dragByCoordinates_select.js",
+            "template": "({{startX}}, {{startY}}) -> ({{endX}}, {{endY}})"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_swipeByCoordinates_code.js",
+                    "name": "AndroidManager_swipeByCoordinates_code"
+                }
+            ],
+            "description": {
+                "en": "Swipe on Screen",
+                "ru": "Свайпнуть по экрану"
+            },
+            "interface": "AndroidManager_swipeByCoordinates_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_swipeByCoordinates",
+            "select": "AndroidManager_swipeByCoordinates_select.js",
+            "template": "({{startX}}, {{startY}}) -> ({{endX}}, {{endY}})"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_scrollToElement_code.js",
+                    "name": "AndroidManager_scrollToElement_code"
+                }
+            ],
+            "description": {
+                "en": "Scroll to Element",
+                "ru": "Скролл к элементу"
+            },
+            "interface": "AndroidManager_scrollToElement_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_scrollToElement",
+            "select": "AndroidManager_scrollToElement_select.js",
+            "template": "{{targetElement}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_existsByXpath_code.js",
+                    "name": "AndroidManager_existsByXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Is Element Exists",
+                "ru": "Проверить существование элемента"
+            },
+            "interface": "AndroidManager_existsByXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_existsByXpath",
+            "select": "AndroidManager_existsByXpath_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_waitForXpath_code.js",
+                    "name": "AndroidManager_waitForXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Wait for Element",
+                "ru": "Ждать элемент"
+            },
+            "interface": "AndroidManager_waitForXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_waitForXpath",
+            "select": "AndroidManager_waitForXpath_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_waitForIDLE_code.js",
+                    "name": "AndroidManager_waitForIDLE_code"
+                }
+            ],
+            "description": {
+                "en": "Wait for Element Disappear",
+                "ru": "Ждать исчезновения элемента"
+            },
+            "interface": "AndroidManager_waitForIDLE_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_waitForIDLE",
+            "select": "AndroidManager_waitForIDLE_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_waitForActivity_code.js",
+                    "name": "AndroidManager_waitForActivity_code"
+                }
+            ],
+            "description": {
+                "en": "Wait for Activity",
+                "ru": "Ждать активити"
+            },
+            "interface": "AndroidManager_waitForActivity_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_waitForActivity",
+            "select": "AndroidManager_waitForActivity_select.js",
+            "template": "{{activity}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getXpathSelector_code.js",
+                    "name": "AndroidManager_getXpathSelector_code"
+                }
+            ],
+            "description": {
+                "en": "Get XML by Xpath",
+                "ru": "Получить XML по xpath"
+            },
+            "interface": "AndroidManager_getXpathSelector_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getXpathSelector",
+            "select": "AndroidManager_getXpathSelector_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getAllXpathSelectors_code.js",
+                    "name": "AndroidManager_getAllXpathSelectors_code"
+                }
+            ],
+            "description": {
+                "en": "Get Each XML",
+                "ru": "Получить каждый XML"
+            },
+            "interface": "AndroidManager_getAllXpathSelectors_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getAllXpathSelectors",
+            "select": "AndroidManager_getAllXpathSelectors_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getElementAttribute_code.js",
+                    "name": "AndroidManager_getElementAttribute_code"
+                }
+            ],
+            "description": {
+                "en": "Get Element Attribute",
+                "ru": "Получить аттрибут элемента"
+            },
+            "interface": "AndroidManager_getElementAttribute_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getElementAttribute",
+            "select": "AndroidManager_getElementAttribute_select.js",
+            "template": "{{attribute}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getAllElementAttributes_code.js",
+                    "name": "AndroidManager_getAllElementAttributes_code"
+                }
+            ],
+            "description": {
+                "en": "Get All Element Attributes",
+                "ru": "Получить все аттрибуты элемента"
+            },
+            "interface": "AndroidManager_getAllElementAttributes_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getAllElementAttributes",
+            "select": "AndroidManager_getAllElementAttributes_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getAllSelectorsAttribute_code.js",
+                    "name": "AndroidManager_getAllSelectorsAttribute_code"
+                }
+            ],
+            "description": {
+                "en": "Get Attribute of Each Element",
+                "ru": "Получить аттрибут каждого элемента"
+            },
+            "interface": "AndroidManager_getAllSelectorsAttribute_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getAllSelectorsAttribute",
+            "select": "AndroidManager_getAllSelectorsAttribute_select.js",
+            "template": "{{attribute}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_getXpathSelectorsCount_code.js",
+                    "name": "AndroidManager_getXpathSelectorsCount_code"
+                }
+            ],
+            "description": {
+                "en": "Get Elements Count",
+                "ru": "Получить количество элементов"
+            },
+            "interface": "AndroidManager_getXpathSelectorsCount_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_getXpathSelectorsCount",
+            "select": "AndroidManager_getXpathSelectorsCount_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_setTextByXpath_code.js",
+                    "name": "AndroidManager_setTextByXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Type Text",
+                "ru": "Ввод текста"
+            },
+            "interface": "AndroidManager_setTextByXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_setTextByXpath",
+            "select": "AndroidManager_setTextByXpath_select.js",
+            "template": "{{text}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_clearTextByXpath_code.js",
+                    "name": "AndroidManager_clearTextByXpath_code"
+                }
+            ],
+            "description": {
+                "en": "Clear Input Field",
+                "ru": "Очистить поле ввода"
+            },
+            "interface": "AndroidManager_clearTextByXpath_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_clearTextByXpath",
+            "select": "AndroidManager_clearTextByXpath_select.js",
+            "template": "{{xpath}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_registerEvent_code.js",
+                    "name": "AndroidManager_registerEvent_code"
+                }
+            ],
+            "description": {
+                "en": "Register Event",
+                "ru": "Зарегистрировать событие"
+            },
+            "interface": "AndroidManager_registerEvent_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_registerEvent",
+            "select": "AndroidManager_registerEvent_select.js",
+            "template": "{{trigger}} -> {{basFuncName}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_inputKeyEvent_code.js",
+                    "name": "AndroidManager_inputKeyEvent_code"
+                }
+            ],
+            "description": {
+                "en": "Send System Command",
+                "ru": "Отправить системную команду"
+            },
+            "interface": "AndroidManager_inputKeyEvent_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_inputKeyEvent",
+            "select": "AndroidManager_inputKeyEvent_select.js",
+            "template": "{{event}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_openUrl_code.js",
+                    "name": "AndroidManager_openUrl_code"
+                }
+            ],
+            "description": {
+                "en": "Open URL",
+                "ru": "Открыть URL"
+            },
+            "interface": "AndroidManager_openUrl_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_openUrl",
+            "select": "AndroidManager_openUrl_select.js",
+            "template": "{{url}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_openNotifications_code.js",
+                    "name": "AndroidManager_openNotifications_code"
+                }
+            ],
+            "description": {
+                "en": "Open Notifications Panel",
+                "ru": "Открыть панель уведомлений"
+            },
+            "interface": "AndroidManager_openNotifications_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_openNotifications",
+            "select": "AndroidManager_openNotifications_select.js",
+            "template": "{{serial}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_runProcess_code.js",
+                    "name": "AndroidManager_runProcess_code"
+                }
+            ],
+            "description": {
+                "en": "Run Process",
+                "ru": "Запустить процесс"
+            },
+            "interface": "AndroidManager_runProcess_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_runProcess",
+            "select": "AndroidManager_runProcess_select.js",
+            "template": "{{command}} -> {{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_pullFromDevice_code.js",
+                    "name": "AndroidManager_pullFromDevice_code"
+                }
+            ],
+            "description": {
+                "en": "Download File / Directory",
+                "ru": "Скачать файл / папку"
+            },
+            "interface": "AndroidManager_pullFromDevice_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_pullFromDevice",
+            "select": "AndroidManager_pullFromDevice_select.js",
+            "template": "{{inputPath}} -> {{outputPath}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_pushToDevice_code.js",
+                    "name": "AndroidManager_pushToDevice_code"
+                }
+            ],
+            "description": {
+                "en": "Upload File / Directory",
+                "ru": "Загрузить файл / папку"
+            },
+            "interface": "AndroidManager_pushToDevice_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_pushToDevice",
+            "select": "AndroidManager_pushToDevice_select.js",
+            "template": "{{inputPath}} -> {{outputPath}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_takeScreenshot_code.js",
+                    "name": "AndroidManager_takeScreenshot_code"
+                }
+            ],
+            "description": {
+                "en": "Take Screenshot",
+                "ru": "Сделать скриншот"
+            },
+            "interface": "AndroidManager_takeScreenshot_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_takeScreenshot",
+            "select": "AndroidManager_takeScreenshot_select.js",
+            "template": "{{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_solveCaptcha_code.js",
+                    "name": "AndroidManager_solveCaptcha_code"
+                }
+            ],
+            "description": {
+                "en": "Solve ReCaptcha v2",
+                "ru": "Решить ReCaptcha v2"
+            },
+            "interface": "AndroidManager_solveCaptcha_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_solveCaptcha",
+            "select": "AndroidManager_solveCaptcha_select.js",
+            "template": "{{Save}}"
+        },
+        {
+            "code": [
+                {
+                    "file": "AndroidManager_dumpHierarchy_code.js",
+                    "name": "AndroidManager_dumpHierarchy_code"
+                }
+            ],
+            "description": {
+                "en": "Get XML Dump",
+                "ru": "Получить XML дамп"
+            },
+            "interface": "AndroidManager_dumpHierarchy_interface.js",
+            "is_element": false,
+            "name": "AndroidManager_dumpHierarchy",
+            "select": "AndroidManager_dumpHierarchy_select.js",
+            "template": "{{Save}}"
+        }
+    ],
+    "api_version": 1,
+    "autogenerated_functions": [
+        "getAllSelectorsAttribute",
+        "getXpathSelectorsCount",
+        "getAllXpathSelectors",
+        "getXpathSelector",
+        "solveCaptcha",
+        "isAppRunning",
+        "isAppInstalled",
+        "openNotifications",
+        "stopAppiumServer",
+        "startAppiumServer",
+        "longClickByCoordinates",
+        "longClickByXpath",
+        "waitForIDLE",
+        "scrollToElement",
+        "getAllElementAttributes",
+        "getElementAttribute",
+        "waitForActivity",
+        "existsByXpath",
+        "waitForXpath",
+        "setTextByXpath",
+        "clearTextByXpath",
+        "clickByXpath",
+        "dragByCoordinates",
+        "swipeByCoordinates",
+        "clickByCoordinates",
+        "inputKeyEvent",
+        "getInstalledApps",
+        "openUrl",
+        "runProcess",
+        "uninstallApp",
+        "installApp",
+        "clearAppCache",
+        "closeApp",
+        "getCurrentActivity",
+        "openApp",
+        "pullFromDevice",
+        "pushToDevice",
+        "takeScreenshot",
+        "dumpHierarchy",
+        "stopDevice",
+        "connectDevice",
+        "getDevices",
+        "registerEvent"
+    ],
+    "browser": [
+    ],
+    "depends": [
+    ],
+    "description": "Android Manager",
+    "description_small": {
+        "en": "Android Manager",
+        "ru": "Андроид менеджер"
+    },
+    "developer_email": "",
+    "developer_name": "thepappo",
+    "developer_site": "https://t.me/shokoladny_zayac",
+    "embeddeddata": [
+        {
+            "Data": "const config = (\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconfig.lang = [[AM_NODE_PARAMS]];\r\n\r\nconst adb = await adbUtils();\r\n[[AM_NODE_RESULT]] = await adb.devices();",
+            "DataName": "getDevices",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst Server = require(\"../AMServer\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nawait config.removeDevice(serial);",
+            "DataName": "stopDevice",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const wdio = require(\"webdriverio\");\nconst { DeviceIsNotRunningError,\n        DeviceNotFoundError,\n        ServerNotFoudError } = require(\"./AMError\");\n\n\nclass Config {\n    constructor() {\n        this._devices = {};\n        this._devicesUses = {};\n    }\n\n    _assignDeviceOptions(options, connType) {\n        const serial = options.capabilities[\"appium:udid\"];\n        const defaultOptions = {\n            path: '/wd/hub',\n            capabilities: {\n                platformName: \"android\",\n                \"appium:automationName\": \"UiAutomator2\"\n            }\n        };\n        let skip;\n        switch(connType) {\n            case \"auto\":\n                if (!this._devicesUses.serial) {\n                    skip = false;\n                } else {\n                    skip = true;\n                }\n                break;\n            case true:\n                skip = false;\n                break;\n            case false:\n                skip = true;\n                break;\n        }\n        const connectionOptions = {\n            capabilities: {\n                \"appium:skipServerInstallation\": skip,\n                \"appium:skipDeviceInitialization\": skip\n            }\n        };\n\n        return Object.assign(\n            {},\n            defaultOptions,\n            connectionOptions,\n            options\n        );\n    }\n\n    set lang(lang) {\n        if (!this.hasOwnProperty(\"_lang\")) {\n            this._lang = lang;\n        }\n    }\n\n    get lang() {\n        if (this.hasOwnProperty(\"_lang\")) {\n            return this._lang;\n        }\n    }\n\n    set server(addr) {\n        this._server = addr;\n    }\n\n    get server() {\n        if (this._server) {\n            return this._server;\n        } else {\n            throw new ServerNotFoudError();\n        }\n    }\n\n    async setDevice(options, connType) {\n        const serial = options.capabilities[\"appium:udid\"];\n        if (!this._devices[serial]) {\n            const settings = this._assignDeviceOptions(options, connType);\n            try {\n                this._devices[serial] = await wdio.remote(settings);\n                if (this._devicesUses.hasOwnProperty(\"serial\")) {\n                    this._devicesUses[serial]++;\n                } else {\n                    this._devicesUses[serial] = 1;\n                }\n            } catch (e) {\n                const trigger = /Device .* was not in the list of connected devices/g;\n                if (trigger.test(e.message)) {\n                    throw new DeviceIsNotRunningError(serial);\n                } else {\n                    throw e;\n                }\n            }\n        }\n    }\n\n    async removeDevice(serial) {\n        const device = this._devices[serial];\n        if (device) {\n            await device.deleteSession();\n            delete this._devices[serial];\n        }\n    }\n\n    getDevice(serial) {\n        if (this._devices[serial]) {\n            return this._devices[serial];\n        } else {\n            throw new DeviceNotFoundError(serial);\n        }\n    }\n}\n\nfunction globals() {\n    return this;\n}\n\nif (!globals().hasOwnProperty(\"AMConfig\")) {\n    global.AMConfig = new Config();\n}\n\nmodule.exports = AMConfig;",
+            "DataName": "AMConfig",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const { spawn } = require(\"child_process\");\nconst { SubprocessError } = require(\"./AMError\");\n\n\nasync function spawnChild(cmd, params) {\n    const child = spawn(cmd, params, {shell: true});\n\n    let data = \"\";\n    for await (const chunk of child.stdout) {\n        data += chunk;\n    }\n    let error = \"\";\n    for await (const chunk of child.stderr) {\n        error += chunk;\n    }\n    const exitCode = await new Promise((resolve, reject) => {\n        child.on(\"close\", resolve);\n    });\n    if (exitCode) throw new SubprocessError(exitCode, error || data);\n\n    return data;\n}\n\nmodule.exports = async (cmd, params=[]) => {\n    return spawnChild(cmd, params)\n        .then(data => data.split(\"\\r\\n\").filter(el => el));\n}",
+            "DataName": "AMNodeProcess",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "class AMError extends Error {\n    constructor(message) {\n        super(message[AMConfig.lang]);\n        this.name = this.constructor.name;\n        Error.captureStackTrace(this, this.constructor);\n    }\n}\n\nclass SubprocessError extends AMError {\n    constructor(code, error) {\n        super({\n            ru: `Процесс завершился с кодом: ${code}. Ошибка: ${error}`,\n            en: `Subprocess finished with code ${code}. Error: ${error}`\n        });\n    }\n}\n\nclass DeviceNotFoundError extends AMError {\n    constructor(serial) {\n        super({\n            ru: `Объект устройства ${serial} не создан. Используйте действие \"Подключить устройство\"`,\n            en: `Device object ${serial} not created. Use \"Connect device\" action`\n        });\n    }\n}\n\nclass DeviceIsNotRunningError extends AMError {\n    constructor(serial) {\n        super({\n            ru: `Устройство ${serial} не найдено или находится оффлайн`,\n            en: `Device ${serial} not found or offline`\n        });\n    }\n}\n\nclass PathNotFoundError extends AMError {\n    constructor(path) {\n        super({\n            ru: `Указанный путь \"${path}\" не найден`,\n            en: `The path \"${path}\" not found`\n        });\n    }\n}\n\nclass SelectorIndexError extends AMError {\n    constructor(index, len) {\n        super({\n            ru: `Не удалось получить элемент по индексу ${index}, только ${len} элементов найдено`,\n            en: `Failed to get element by index ${index}, only ${len} elements found`\n        });\n    }\n}\n\nclass ScrollableElementNotFoundError extends AMError {\n    constructor(xpath) {\n        super({\n            ru: `Не удалось найти область скроллинга по xpath \"${xpath}\"`,\n            en: `Failed to find scrollable area by xpath \"${xpath}\"`\n        });\n    }\n}\n\nclass ServerConnectionError extends AMError {\n    constructor(tries) {\n        super({\n            ru: `Не удалось подключиться к серверу Appium за ${tries} попыток`,\n            en: `Failed to establish a connection with Apiium server for ${tries} attempts`\n        });\n    }\n}\n\nclass ServerNotFoudError extends AMError {\n    constructor(error) {\n        super({\n            ru: 'Сервер Appium не запущен. Сначала выполните действие \"Запустить сервер\".',\n            en: 'Appium server is not running. You should execute \"Run server\" action first.'\n        });\n    }\n}\n\nclass HTTPClientError extends AMError {\n    constructor(url, response) {\n        super({\n            ru: `Произошла ошибка во время отправки запроса на URL: ${url}. Код: ${response.status}. ${response.statusText}`,\n            en: `An error occurred while sending the request to URL: ${url}. Code: ${response.status}. ${response.statusText}`\n        });\n    }\n}\n\nclass CaptchaFrameNotFoundError extends AMError {\n    constructor(xpath) {\n        super({\n            ru: `Не удалось найти frame Recaptcha по xpath: \"${xpath}\". Попробуйте увеличить время ожидания элемента и убедитесь, что xpath корректный.`,\n            en: `Failed to find Recaptcha frame by xpath: \"${xpath}\". Try to increase timeout to waitting for the element and make sure the xpath is correct.`\n        });\n    }\n}\n\nclass CaptchaImageNotFoundError extends AMError {\n    constructor(xpath) {\n        super({\n            ru: `Не удалось найти изображения на капче по xpath: \"${xpath}\". Убедитесь, что xpath корректный.`,\n            en: `Failed to find images on captcha by xpath: \"${xpath}\". Make sure the xpath is correct.`\n        });\n    }\n}\n\nclass CaptchaDescriptionNotFoundError extends AMError {\n    constructor(xpath) {\n        super({\n            ru: `Не удалось найти описание капчи по xpath: \"${xpath}\". Убедитесь, что xpath корректный.`,\n            en: `Failed to find captcha description by xpath: \"${xpath}\". Make sure the xpath is correct.`\n        });\n    }\n}\n\nclass CaptchaButtonNotFoundError extends AMError {\n    constructor(xpath) {\n        super({\n            ru: `Не удалось найти кнопку отправки результата капчи по xpath: \"${xpath}\". Убедитесь, что xpath корректный.`,\n            en: `Failed to find button to send captcha result by xpath: \"${xpath}\". Make sure the xpath is correct.`\n        });\n    }\n}\n\nclass CaptchaCreateTaskError extends AMError {\n    constructor(error, description) {\n        super({\n            ru: `${error}: ${description}`,\n            en: `${error}: ${description}`\n        });\n    }\n}\n\nclass CaptchaGetTaskResultError extends AMError {\n    constructor(error) {\n        super({\n            ru: `Ошибка во время получения результата решения капчи: ${error}`,\n            en: `Error while getting the result of captcha solving: ${error}`\n        });\n    }\n}\n\nmodule.exports = {\n    SubprocessError,\n    DeviceNotFoundError,\n    DeviceIsNotRunningError,\n    PathNotFoundError,\n    SelectorIndexError,\n    ScrollableElementNotFoundError,\n    ServerConnectionError,\n    ServerNotFoudError,\n    HTTPClientError,\n    CaptchaCreateTaskError,\n    CaptchaGetTaskResultError,\n    CaptchaFrameNotFoundError,\n    CaptchaImageNotFoundError,\n    CaptchaDescriptionNotFoundError,\n    CaptchaButtonNotFoundError\n};",
+            "DataName": "AMError",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst device = config.getDevice(serial);\r\n[[AM_NODE_RESULT]] = await device.getPageSource();",
+            "DataName": "dumpHierarchy",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst device = config.getDevice(serial);\r\n[[AM_NODE_RESULT]] = await device.takeScreenshot();",
+            "DataName": "takeScreenshot",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, inputPath, outputPath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.push(inputPath, outputPath);",
+            "DataName": "pushToDevice",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const fs = require(\"fs\").promises;\n\n\nconst utils = {\n    normalizePath: path => path.replace(/\\\\/g, \"/\"),\n    isPathExists: async path => !!(await fs.stat(path).catch(e => false)),\n    randRange: (min, max) => Math.floor(min + Math.random() * (max + 1 - min)),\n    convertBool: val => [true, \"true\"].includes(val) ? true : [false, \"false\"].includes(val) ? false : null,\n    convertBoolReverse: val => [true, \"true\"].includes(val) ? false : [false, \"false\"].includes(val) ? true : null\n};\n\nmodule.exports = utils;",
+            "DataName": "AMUtils",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, inputPath, outputPath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.pull(inputPath, outputPath);",
+            "DataName": "pullFromDevice",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.openApp(appName);",
+            "DataName": "openApp",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\n[[AM_NODE_RESULT]] = await adb.currentActivity();",
+            "DataName": "getCurrentActivity",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nconst adb = await adbUtils(serial);\r\nawait adb.closeApp(appName);",
+            "DataName": "closeApp",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nconst adb = await adbUtils(serial);\r\nawait adb.clearApp(appName);",
+            "DataName": "clearAppCache",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appPath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\n[[AM_NODE_RESULT]] = await adb.install(appPath);",
+            "DataName": "installApp",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\n[[AM_NODE_RESULT]] = await adb.uninstall(appName);",
+            "DataName": "uninstallApp",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst process = require(\"../AMNodeProcess\");\r\nconst { convertBool } = require(\"../AMUtils\");\r\n\r\nconst [lang, command, resultAsList] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nlet result = await process(command);\r\nif (convertBool(resultAsList)) {\r\n    [[AM_NODE_RESULT]] = result;\r\n} else {\r\n    [[AM_NODE_RESULT]] = typeof result == \"object\" ? result.join(\"\\r\\n\") : result;\r\n}",
+            "DataName": "runProcess",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, url] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.shell(`am start -a android.intent.action.VIEW -d \"${url}\"`);",
+            "DataName": "openUrl",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\n[[AM_NODE_RESULT]] = await adb.listPackages();",
+            "DataName": "getInstalledApps",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, event] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst keyEvents = {\r\n    \"home\": \"3\",\r\n    \"back\": \"4\",\r\n    \"volume up\": \"24\",\r\n    \"volume down\": \"25\",\r\n    \"power\": \"26\",\r\n    \"camera\": \"27\",\r\n    \"volume mute\": \"164\",\r\n    \"sleep\": \"223\",\r\n    \"wake up\": \"224\"\r\n}\r\nconst adb = await adbUtils(serial);\r\nawait adb.keyEvent(keyEvents[event] || event);",
+            "DataName": "inputKeyEvent",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, sx, sy, ex, ey, steps] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.swipe(sx, sy, ex, ey, steps || 30);",
+            "DataName": "swipeByCoordinates",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, sx, sy, ex, ey] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nconst adb = await adbUtils(serial);\r\nawait adb.drag(sx, sy, ex, ey);",
+            "DataName": "dragByCoordinates",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const parser = require(\"xpath\");\nconst dom = require(\"xmldom\").DOMParser;\nconst config = require(\"./AMConfig\");\nconst utils = require(\"./AMUtils\");\nconst adbUtils = require(\"./AMAdbUtils\");\nconst { SelectorIndexError,\n        ScrollableElementNotFoundError } = require(\"./AMError\");\n\n\nclass Selector {\n    constructor(serial) {\n        /* @param serial [string] : device serial number */\n        this._serial = serial;\n        return (async () => {\n            this._adb = await adbUtils(this._serial);\n            return this;\n        })();\n    }\n\n    _getNodes(xpath) {\n        /* @param xpath [string] : xpath to check\n           Return : Array[string] */\n        const doc = new dom().parseFromString(this._xml);\n        const nodes = parser.select(xpath, doc);\n        return nodes.map(el => el.toString());\n    }\n\n    _getValue(options, index=0) {\n        /* @param options [object] : { xpath, attr, randBounds, position }\n           @property options.xpath [string]\n           @property options.attr [string] : element attribute to get its value\n           @property options.randBounds=false [boolean] :\n               actual only for \"bounds\" value of \"attr\" property\n               if (true) - return random bounds,\n               if (false) - return default bounds\n           @property options.position=false :\n               Array[\"left\" | \"right\", \"top\" | \"bottom\"],\n               element position\n\n           @param index=0 [number] : the ordinal number of the found element\n\n           Return :\n              options {..., attr: \"bounds\", position} ->\n                  Array[number, number]\n              options {..., attr: \"bounds\", randBounds: true} ->\n                  Array[number, number]\n              options {..., attr: \"bounds\", randBounds: false} ->\n                  Array[number, number, number, number]\n              options {..., attr: \"index\"} -> [number]\n              other -> [string] */\n        const attr = options.attr;\n        const randBounds = options.randBounds || false;\n        const position = options.position || false;\n        \n        const nodes = this._getNodes(options.xpath);\n        if (nodes.length === 0) return false;\n        let node = nodes[index];\n        const doc = new dom().parseFromString(node);\n        let elem = parser.select(`string(//*/@${attr})`, doc);\n\n        let bounds;\n        if (elem) {\n            switch (true) {\n                case attr == \"bounds\" && position:\n                    bounds = this._convertBounds(elem);\n                    return this._getPosition(bounds, position);\n                case attr == \"bounds\" && !randBounds:\n                    return this._convertBounds(elem);\n                case attr == \"bounds\" && randBounds:\n                    bounds = this._convertBounds(elem);\n                    return this._getRandomPoint(bounds);\n                case attr == \"index\":\n                    return Number(elem);\n                default:\n                    return elem;\n            }\n        }\n    }\n\n    _convertBounds(bounds) {\n        /* @param bounds [string]\n           Return Array[number, number, number, number] */\n        let [start, end] = bounds.split(\"][\");\n        let [sx, sy] = start.replace(\"[\", \"\").split(\",\");\n        let [ex, ey] = end.replace(\"]\", \"\").split(\",\");\n        return [sx, sy, ex, ey].map(el => Number(el));\n    }\n\n    _getRandomPoint(bounds) {\n        /* @param bounds Array[number, number, number, number]\n           Return Array[number, number] */\n        const [sx, sy, ex, ey] = bounds;\n        let x = utils.randRange(sx, ex);\n        let y = utils.randRange(sy, ey);\n        return [x, y];\n    }\n\n    _getPosition(bounds, pos) {\n        /* @param bounds Array[number, number, number, number]\n           @param pos Array[\"left\" | \"right\", \"top\" | \"bottom\"] :\n               element position\n           Example: _getPosition([300, 500], [\"right\", \"bottom\"])\n           ```````\n           Return Array[number, number] : coordinates */\n        const [sx, sy, ex, ey] = bounds;\n        let x, y;\n        switch(pos[0]) {\n            case \"center\":\n                x = ex - Math.floor((ex-sx) / 2);\n                break;\n            case \"left\":\n                x = sx;\n                break;\n            case \"right\":\n                x = ex;\n                break;\n            default:\n                throw new Error(`Invalid position value \"${pos[0]}\", expected \"center\", \"left\" or \"right\"`);\n        }\n        switch(pos[1]) {\n            case \"center\":\n                y = ey - Math.floor((ey-sy) / 2);\n                break;\n            case \"top\":\n                y = sy;\n                break;\n            case \"bottom\":\n                y = ey;\n                break;\n            default:\n                throw new Error(`Invalid position value \"${pos[1]}\", expected \"center\", \"top\" or \"bottom\"`);\n        }\n        return [x, y];\n    }\n\n    async _getDump() {\n        if (!this.hasOwnProperty(\"_device\")) {\n            this._device = config.getDevice(this._serial);\n        }\n        return await this._device.getPageSource();\n    }\n\n    async isSelectorExists(xpath) {\n        /* @param xpath [string] : xpath to check\n           Return [boolean] : (true) if selector exists, (false) if not */\n        this._xml = await this._getDump();\n        return this._getNodes(xpath).length > 0;\n    }\n\n    async getSelectorsArray(xpath) {\n        /* @param xpath [string]\n           Return Array[string] | false */\n        this._xml = await this._getDump();\n        const nodes = this._getNodes(xpath);\n        return nodes.length > 0 ? nodes : false;\n    }\n\n    async getALLSelectorsAttrs(xpath, attr) {\n        /* @param xpath [string]\n           @param attr [string] : element attribute to get its value\n           Return Array[string] | false */\n        const count = await this.getSelectorsCount(xpath);\n        let result = [];\n        for (let index=0; index < count; index++) {\n            let attrValue = this._getValue({ xpath, attr }, index);\n            let value;\n            switch (attrValue) {\n                case \"true\":\n                    value = true;\n                case \"false\":\n                    value = false;\n                case undefined:\n                    continue;\n                default:\n                    value = attrValue;\n            }\n            result.push(value);\n        }\n        return result;\n    }\n\n    async getSelectorsCount(xpath) {\n        /* @param xpath [string] : xpath to check\n           Return Array[...string] */\n        this._xml = await this._getDump();\n        const nodes = this._getNodes(xpath);\n        return nodes.length;\n    }\n\n    async getSelector(xpath, index=0) {\n        /* @param xpath [string] : xpath to check\n           @param index [number] : selector index\n           Return [string] | false */\n        this._xml = await this._getDump();\n        const nodes = this._getNodes(xpath);\n        return nodes.length > 0 ? nodes[index] : false;\n    }\n\n    async getElementAttribute(xpath, attr, index) {\n        /* @param xpath [string]\n           @param attr [string] : element attribute\n           @param index [number] : the ordinal number of the found element\n           Return [string | boolean | null] */\n        const exists = await this.isSelectorExists(xpath);\n        if (!exists) return null;\n        let attrValue = this._getValue({ xpath, attr }, index);\n        switch (attrValue) {\n            case \"true\":\n                return true;\n            case \"false\":\n                return false;\n            case undefined:\n                return null;\n            default:\n                return attrValue;\n        }\n    }\n\n    async getAllElementAttributes(xpath, index) {\n        /* @param xpath [string]\n           @param index [number] : the ordinal number of the found element\n           Return Array[string | boolean | null] */\n        const attributes = [\"text\", \"resource-id\", \"class\", \"content-desc\",\n        \"checkable\", \"checked\", \"clickable\", \"long-clickable\", \"scrollable\",\n        \"enabled\", \"focusable\", \"focused\", \"selected\", \"package\", \"index\", \"bounds\"]\n        const exists = await this.isSelectorExists(xpath);\n        if (!exists) return null;\n\n        let attrsObj = {};\n        attributes.forEach(attr => {\n            let attrValue = this._getValue({ xpath, attr }, index);\n            switch (attrValue) {\n                case \"true\":\n                    attrsObj[attr] = true;\n                    break;\n                case \"false\":\n                    attrsObj[attr] = false;\n                    break;\n                case undefined:\n                    attrsObj[attr] = null;\n                    break;\n                default:\n                    attrsObj[attr] = attrValue;\n            }\n        });\n        return attrsObj || false;\n    }\n\n    async waitForSelector(xpath, duration, delay, options) {\n        /* @param xpath [string]\n           @param duration [number] : maximum timeout for waiting selector, ms\n           @param delay [number] : delay between checks\n\n           @property options [object] : { instantly, index, randBounds }\n           @property options.instantly=false [boolean] :\n               wait for a @duration time (false) or not (true)\n           @property options.index=0 [number] : selector index to get\n           @property options.randBounds=false [boolean] :\n               if (true) - one random [x, y] point will return,\n               if (false) - return an array of points [startX, startY, endX, endY]\n\n           Return Array[number, number] |\n                  Array[number, number, number, number] |\n                  false */\n        const instantly = options && options.instantly || false;\n        const randBounds = options && options.randBounds || false;\n        const index = options && options.index || 0;\n        const ts = Date.now();\n        do {\n            let exists = await this.isSelectorExists(xpath);\n            if (exists) {\n                let bounds = this._getValue(\n                    { xpath, attr: \"bounds\", randBounds },\n                    index\n                );\n                return bounds;\n            }\n            await new Promise(resolve => setTimeout(resolve, delay));\n        } while (Date.now() - ts < duration && !instantly);\n        return false;\n    }\n\n    async waitForIDLE(xpath, duration, delay) {\n        /* @param xpath [string]\n           @param duration [number] : maximum selector disappear timeout, ms\n           @param delay [number] : delay between checks\n           Return Array[number, number] |\n                  Array[number, number, number, number] |\n                  false */\n        const ts = Date.now();\n        while (Date.now() - ts < duration) {\n            let exists = await this.isSelectorExists(xpath);\n            if (!exists) {\n                return true;\n            }\n            await new Promise(resolve => setTimeout(resolve, delay));\n        }\n        return false;\n    }\n\n    async scrollTo(scrollable, target, options) {\n        /* @param scrollable [string] : xpath of the scrollable element\n           @param target [string | optional] : xpath of the element to find\n\n           @param options [object] : { index, direction, duration, delay }\n           @property options.index=0 [number] : selector index to scroll\n           @property options.direction [\"up\" | \"down\" | \"left\" | \"right\"] :\n               direction of scrolling\n           @property options.duration=60000 [number] :\n               maximum timeout for scrolling, ms\n           @property options.delay=200 [number] : delay between scrollings, ms\n\n           Return Array[number, number] | false */\n        const index = options.index || 0;\n        const direction = options.direction;\n        const duration = options.duration || 60000;\n        const delay = options.delay || 200;\n\n        let exists = await this.isSelectorExists(scrollable);\n        if (!exists) {\n            throw new ScrollableElementNotFoundError(scrollable);\n        }\n        const scrollableBounds = this._getValue({\n            xpath: scrollable,\n            attr: \"bounds\"\n        });\n\n        let scrlSX, scrlSY;\n\n        // end point\n        let [scrlEX, scrlEY] = this._getPosition(scrollableBounds, [\"center\", \"center\"]);\n\n        // start point\n        switch(direction) {\n            case \"up\":\n                [scrlSX, scrlSY] = this._getPosition(scrollableBounds, [\"center\", \"top\"]);\n                scrlSY += 10; // +10 px from the top border\n                break;\n            case \"down\":\n                [scrlSX, scrlSY] = this._getPosition(scrollableBounds, [\"center\", \"bottom\"]);\n                scrlSY -= 10; // -10 px from the bottom border\n                break;\n            case \"left\":\n                [scrlSX, scrlSY] = this._getPosition(scrollableBounds, [\"right\", \"center\"]);\n                scrlEX -= 10; // -10 px from the right border\n                break;\n            case \"right\":\n                [scrlSX, scrlSY] = this._getPosition(scrollableBounds, [\"left\", \"center\"]);\n                scrlSX += 10; // +10 px from the left border\n                break;\n            default:\n                throw new Error(`Invalid param direction \"${direction}\", expected \"up\", \"down\", \"left\" or \"right\"`)\n        }\n\n        const ts = Date.now();\n        // counter to compare with selector index\n        let i = 0;\n        // collect unique selectors to compare with counter\n        let foundElements = new Set();\n\n        while (Date.now() - ts < duration) {\n            if (target) {\n                let exists = await this.isSelectorExists(target);\n                if (exists) {\n                    let items = this._getNodes(target);\n                    items.forEach(el => foundElements.add(el));\n                    i += foundElements.size;\n                    if (i >= index + 1) {\n                        let targetBounds = this._getValue({\n                            xpath: target,\n                            attr: \"bounds\"\n                        });\n                        return targetBounds;\n                    }\n                }\n            } else {\n                this._xml = await this._getDump();\n            }\n            await this._adb.swipe(scrlSX, scrlSY, scrlEX, scrlEY, 30);\n\n            // XML has not changed, thus scrolled to the end\n            if (await this._getDump() == this._xml) {\n                return false;\n            }\n            await new Promise(resolve => setTimeout(resolve, delay));\n        }\n        return false;\n    }\n}\n\nmodule.exports = async serial => await new Selector(serial);",
+            "DataName": "AMSelector",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst { convertBoolReverse } = require(\"../AMUtils\");\r\nconst AMSelector = require(\"../AMSelector\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, waitForElement, index,\r\n       xpath, maxDuration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nasync function clickBySelector() {\r\n    const instantly = convertBoolReverse(waitForElement);\r\n    const options = {instantly, index, randBounds: true};\r\n    \r\n    const selector = await AMSelector(serial);\r\n    const bounds = await selector.waitForSelector(xpath, maxDuration, delay, options);\r\n    if (!bounds) return false;\r\n\r\n    const adb = await adbUtils(serial)\r\n    await adb.click(...bounds);\r\n    return true;\r\n}\r\n\r\n[[AM_NODE_RESULT]] = await clickBySelector();",
+            "DataName": "clickByXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst { convertBoolReverse } = require(\"../AMUtils\");\r\nconst AMSelector = require(\"../AMSelector\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, waitForElement, index,\r\n       xpath, maxDuration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst instantly = convertBoolReverse(waitForElement);\r\nconst options = {device, instantly, index, randBounds: false};\r\n\r\nasync function clearText() {\r\n    const selector = await AMSelector(serial);\r\n    const bounds = await selector.waitForSelector(xpath, maxDuration, delay, options);\r\n    if (!bounds) return false;\r\n    let [sx, sy, ex, ey] = bounds;\r\n    const x = sx + 1;\r\n    const y = ey - Math.floor((ey-sy) / 2);\r\n\r\n    const adb = await adbUtils(serial);\r\n    await adb.swipe(x, y, ex, y, 500);\r\n    // key del\r\n    await adb.keyEvent(\"67\");\r\n    return true;\r\n}\r\n\r\n[[AM_NODE_RESULT]] = await clearText();",
+            "DataName": "clearTextByXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst { convertBool, convertBoolReverse } = require(\"../AMUtils\");\r\nconst AMSelector = require(\"../AMSelector\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, clearText, waitForElement,\r\n       index, xpath, maxDuration,\r\n       delay, text, projectDirectory] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst instantly = convertBoolReverse(waitForElement);\r\nconst clear = convertBool(clearText);\r\nconst options = { instantly, randBounds: false, index };\r\n\r\nasync function setText() {\r\n    const selector = await AMSelector(serial);\r\n    const bounds = await selector.waitForSelector(xpath, maxDuration, delay, options);\r\n    if(!bounds) return false;\r\n\r\n    let [sx, sy, ex, ey] = bounds;\r\n    const x = sx + 1;\r\n    const y = ey - Math.floor((ey-sy) / 2);\r\n\r\n    const adb = await adbUtils(serial);\r\n    if (clear) {\r\n        await adb.swipe(x, y, ex, y, 500);\r\n        // key del\r\n        await adb.keyEvent(\"67\");\r\n    } else {\r\n        await adb.click(x, y);\r\n        // move to the end of field\r\n        await adb.keyEvent(\"123\");\r\n    }\r\n    await adb.inputText(text, projectDirectory);\r\n    return true;\r\n}\r\n\r\n[[AM_NODE_RESULT]] = await setText();",
+            "DataName": "setTextByXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, maxDuration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst options = {instantly: false, randBounds: false};\r\n\r\nconst selector = await AMSelector(serial);\r\nconst found = await selector.waitForSelector(xpath, maxDuration, delay, options);\r\n[[AM_NODE_RESULT]] = !!found;",
+            "DataName": "waitForXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst options = {instantly: true, randBounds: false};\r\n\r\nconst selector = await AMSelector(serial);\r\nconst found = await selector.isSelectorExists(xpath);\r\n[[AM_NODE_RESULT]] = !!found;",
+            "DataName": "existsByXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, maxDuration, delay, activity] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nasync function waitActivity() {\r\n    const adb = await adbUtils(serial);\r\n    const ts = Date.now();\r\n    while (Date.now() - ts < maxDuration) {\r\n        if (activity = await adb.currentActivity()) {\r\n            return true;\r\n        }\r\n        await new Promise(resolve => setTimeout(resolve, delay));\r\n    }\r\n    return false;\r\n}\r\n\r\n[[AM_NODE_RESULT]] = await waitActivity();",
+            "DataName": "waitForActivity",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, attribute, index] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getElementAttribute(xpath, attribute, index);",
+            "DataName": "getElementAttribute",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, index] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getAllElementAttributes(xpath, index);",
+            "DataName": "getAllElementAttributes",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, scrollableElement, targetElement,\r\n       index, direction, duration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst options = { index, direction, duration, delay };\r\n\r\nconst selector = await AMSelector(serial);\r\nconst found = await selector.scrollTo(scrollableElement, targetElement, options);\r\n[[AM_NODE_RESULT]] = !!found;",
+            "DataName": "scrollToElement",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst { convertBool } = require(\"../AMUtils\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, configConnection, newCommandTimeout] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nconst addr = config.server;\r\n\r\nlet connType = convertBool(configConnection);\r\nconnType = typeof connType == \"boolean\" ? connType : \"auto\";\r\n\r\nconst options = {\r\n    host: addr.host,\r\n    port: addr.port,\r\n    capabilities: {\r\n        platformName: \"android\",\r\n        \"appium:udid\": serial,\r\n        \"appium:automationName\": \"UiAutomator2\",\r\n        \"appium:newCommandTimeout\": newCommandTimeout\r\n    }\r\n};\r\n\r\nawait adbUtils(serial);\r\nawait config.setDevice(options, connType);",
+            "DataName": "connectDevice",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, maxDuration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\nconst found = await selector.waitForIDLE(xpath, maxDuration, delay);\r\n[[AM_NODE_RESULT]] = !!found;",
+            "DataName": "waitForIDLE",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst { convertBoolReverse } = require(\"../AMUtils\");\r\nconst AMSelector = require(\"../AMSelector\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, waitForElement, index,\r\n       xpath, steps, maxDuration, delay] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nasync function longClickBySelector() {\r\n    const instantly = convertBoolReverse(waitForElement);\r\n    const options = {instantly, index, randBounds: true};\r\n    \r\n    const selector = await AMSelector(serial);\r\n    const bounds = await selector.waitForSelector(xpath, maxDuration, delay, options);\r\n    if (!bounds) return false;\r\n\r\n    const adb = await adbUtils(serial);\r\n    await adb.swipe(...bounds, ...bounds, steps);\r\n    return true;\r\n}\r\n\r\n[[AM_NODE_RESULT]] = await longClickBySelector();",
+            "DataName": "longClickByXpath",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, x, y, steps] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nawait adb.swipe(x, y, x, y, steps);",
+            "DataName": "longClickByCoordinates",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const path = require(\"path\");\nconst process = require(\"./AMNodeProcess\");\nconst { normalizePath, isPathExists } = require(\"./AMUtils\");\nconst http = require(\"./AMHTTPClient\");\nconst { DeviceIsNotRunningError, PathNotFoundError } = require(\"./AMError\");\n\n\nclass ADB {\n    constructor(serial) {\n        this._serial = serial;\n        if (this._serial) {\n           return (async () => {\n                const devices = await this.devices();\n                if (!devices.includes(this._serial)) {\n                    throw new DeviceIsNotRunningError(this._serial);\n                }\n                return this;\n            })();            \n        }\n    }\n\n    async devices() {\n        const output = await process(\"adb devices\");\n        let devices = [];\n        output.forEach(el => {\n            let [serial, status] = el.split(\"\\t\");\n            if (status !== undefined && status.indexOf(\"device\") > -1) {\n                devices.push(serial);\n            }\n        })\n        return devices;\n    }\n\n    async shell(cmd) {\n        const params = [\"adb\", \"-s\", this._serial, \"shell\", cmd];\n        return await process(params.join(\" \"));\n    }\n\n    async push(inputPath, outputPath) {\n        const input = normalizePath(inputPath);\n        const output = normalizePath(outputPath);\n        const isInputPathExists = await isPathExists(input);\n        if (!isInputPathExists) throw new PathNotFoundError(input);\n        await process(`adb -s ${this._serial} push \"${input}\" ${output}`);\n    }\n\n    async pull(inputPath, outputPath) {\n        const input = normalizePath(inputPath);\n        const output = normalizePath(outputPath);\n        const isoutputPathExists = await isPathExists(output);\n        if (!isoutputPathExists) throw new PathNotFoundError(input);\n        await process(`adb -s ${this._serial} pull ${input} \"${output}\"`);\n    }\n\n    async click(x, y) {\n        await this.shell(`input tap ${x} ${y}`);\n    }\n\n    async swipe(sx, sy, ex, ey, steps) {\n        await this.shell(`input swipe ${sx} ${sy} ${ex} ${ey} ${steps}`);\n    }\n\n    async drag(sx, sy, ex, ey) {\n        await this.shell(`input draganddrop ${sx} ${sy} ${ex} ${ey}`);\n    }\n\n    async keyEvent(event) {\n        await this.shell(`input keyevent ${event}`);\n    }\n\n    async install(location, source=\"file\", directory=null) {\n        let targetPath, isPath;\n        switch (source) {\n            case \"url\":\n                const appName = location.split(\"/\").at(-1);\n                targetPath = normalizePath(\n                    path.resolve(directory || __dirname, appName)\n                );\n                isPath = await isPathExists(targetPath);\n                if (!isPath) {\n                    await http.download(location, targetPath);\n                }\n                break;\n            case \"file\":\n                targetPath = normalizePath(location);\n                isPath = await isPathExists(targetPath);\n                if (!isPath) throw new PathNotFoundError(targetPath);\n                break;\n        }\n        const output = await process(`adb -s ${this._serial} install \"${targetPath}\"`);\n        return output.some(el => el.indexOf(\"Success\") > -1);\n    }\n\n    async uninstall(appName) {\n        const output = await process(`adb -s ${this._serial} uninstall ${appName}`);\n        return output.some(el => el.indexOf(\"Success\") > -1);\n    }\n\n    async openApp(appName) {\n        await this.shell(`am start -n ${appName}`);\n    }\n\n    async closeApp(appName) {\n        await this.shell(`am force-stop ${appName}`);\n    }\n\n    async clearApp(appName) {\n        await this.closeApp(appName);\n        await this.shell(`pm clear ${appName}`);\n    }\n\n    async listPackages() {\n        let packages = await this.shell(\"pm list packages\");\n        return packages.map(el => el.replace(/^package:/g, \"\")).sort();\n    }\n\n    async isPackage(appName) {\n        let packages = await this.shell(\"pm list packages\");\n        return packages\n            .filter(el => el.indexOf(appName) > -1)\n            .length > 0;\n    }\n\n    async currentActivity() {\n        const cmd = 'dumpsys activity activities | grep mResumedActivity |  cut -d \"{\" -f2 | cut -d \" \" -f3';\n        const activity = await this.shell(cmd);\n        return activity[0];\n    }\n\n    async inputText(text, directory) {\n        const keyboards = await this.shell(\"ime list -s\");\n        if (!keyboards.includes(\"com.android.adbkeyboard/.AdbIME\")) {\n            await this.install(\n                \"https://github.com/senzhk/ADBKeyBoard/raw/master/ADBKeyboard.apk\",\n                \"url\",\n                directory\n            );\n        }\n        await this.shell(\"ime enable com.android.adbkeyboard/.AdbIME\");\n        await this.shell(\"ime set com.android.adbkeyboard/.AdbIME\");\n        const chars = [...text]\n            .map(s => s.charCodeAt(0))\n            .join(\",\");\n        await this.shell(`am broadcast -a ADB_INPUT_CHARS --eia chars '${chars}'`);\n    }\n}\n\nmodule.exports = async serial => await new ADB(serial);",
+            "DataName": "AMAdbUtils",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, x, y] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\nconst adb = await adbUtils(serial);\r\nawait adb.click(x, y);",
+            "DataName": "clickByCoordinates",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const { SubProcess } = require(\"teen_process\");\nconst config = require(\"./AMConfig\");\nconst process = require(\"./AMNodeProcess\");\nconst { ServerConnectionError } = require(\"./AMError\");\n\n\nclass Server {\n    constructor(host, port, maxDuration, connMaxTries) {\n        this.host = host;\n        this.port = port;\n        this._maxDuration = maxDuration;\n        this._connMaxTries = connMaxTries;\n    }\n\n    async _spawn() {\n        const child = new SubProcess(\n            \"appium.cmd\",\n            [\"-a\", this.host, \"-p\", this.port]\n        );\n        const success = /listener started on/g;\n        const fail = /port may already be in use|address already in use/g;\n        let sd = (stdout, stderr) => {\n            if (success.test(stdout)) {\n                return;\n            }\n            if (fail.test(stderr)) {\n                return;\n            }\n            return stdout || stderr;\n        };\n\n        await child.start(sd, this._maxDuration);\n    }\n\n    async _check() {\n        /*  Return process PID */\n        try {\n            const output = await process(`netstat -a -n -o | find \"${this.port}\"`);\n            const data = output[0].split(\" \");\n            return data.at(-1);\n        } catch (e) {\n            return false;\n        }\n    }\n\n    async start() {\n        for (let i=0; i < this._connMaxTries; i++) {\n            await this._spawn();\n            let status = await this._check();\n            if (status) {\n                config.server = {\n                    host: this.host,\n                    port: this.port\n                };\n                return;\n            }\n        }\n        throw new ServerConnectionError(this._connMaxTries);\n    }\n\n    async stop() {\n        const pid = await this._check();\n        if (!pid) return;\n        await process(`taskkill /PID ${pid} /F`);\n    }\n}\n\nmodule.exports = (host, port, maxDuration, connMaxTries) => new Server(host, port, maxDuration, connMaxTries);",
+            "DataName": "AMServer",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst Server = require(\"../AMServer\");\r\n\r\nconst [lang, host, port, maxDuration, connMaxTries] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst server = Server(host, port, maxDuration || 60000, connMaxTries || 3);\r\nawait server.start();",
+            "DataName": "startAppiumServer",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst Server = require(\"../AMServer\");\r\n\r\n\r\nconfig.lang = [[AM_NODE_PARAMS]];\r\nconst addr = config.server;\r\nif (addr) {\r\n    const server = Server(addr.host, addr.port);\r\n    await server.stop();\r\n}",
+            "DataName": "stopAppiumServer",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\n\r\n\r\nconst [lang, serial] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst device = config.getDevice(serial);\r\nawait device.openNotifications();",
+            "DataName": "openNotifications",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\n[[AM_NODE_RESULT]] = await adb.isPackage(appName);",
+            "DataName": "isAppInstalled",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst adbUtils = require(\"../AMAdbUtils\");\r\n\r\n\r\nconst [lang, serial, appName] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst adb = await adbUtils(serial);\r\nconst activity = await adb.currentActivity();\r\n[[AM_NODE_RESULT]] = activity.indexOf(appName) > -1;",
+            "DataName": "isAppRunning",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config = require(\"../AMConfig\");\r\nconst CapSolver = require(\"../AMCapSolver\");\r\n\r\n\r\nconst [lang, serial, service, apiKey, attempts, waitDuration,\r\n       solvingDuration, screenDelay, mainSelector, textSelector,\r\n       imageSelector, buttonSelector] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst options = { serial, service, apiKey, attempts,\r\n                  waitDuration, solvingDuration,\r\n                  screenDelay, mainSelector, textSelector,\r\n                  imageSelector, buttonSelector };\r\nconst solver = await CapSolver(options);\r\n[[AM_NODE_RESULT]] = await solver.solve();",
+            "DataName": "solveCaptcha",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const sharp = require(\"sharp\");\r\nconst config = require(\"./AMConfig\");\r\nconst AMSelector = require(\"./AMSelector\");\r\nconst AdbUtils = require(\"./AMAdbUtils\");\r\nconst http = require(\"./AMHTTPClient\");\r\nconst { CaptchaCreateTaskError,\r\n        CaptchaGetTaskResultError,\r\n        CaptchaFrameNotFoundError,\r\n        CaptchaImageNotFoundError,\r\n        CaptchaDescriptionNotFoundError,\r\n        CaptchaButtonNotFoundError } = require(\"./AMError\");\r\n\r\n\r\nclass API {\r\n    constructor(service, apiKey) {\r\n        /* @param service [string] : captcha solving service\r\n           @param apiKey [string] : API key for captcha solving service */\r\n        this._service = service;\r\n        this._url = this._getServiceURL();\r\n        this._apiKey = apiKey;\r\n    }\r\n\r\n    _getServiceURL() {\r\n        const urls = {\r\n            \"2captcha\": \"https://2captcha.com\",\r\n            \"captcha.guru\": \"http://api.captcha.guru\",\r\n            \"rucaptcha\": \"http://rucaptcha.com\"\r\n        }\r\n        return urls[this._service];\r\n    }\r\n\r\n    _response(resp, source) {\r\n        switch (source) {\r\n            case \"createTask\":\r\n                if(resp.status === 0) {\r\n                    throw new CaptchaCreateTaskError(resp.request, resp.error_text);\r\n                } else {\r\n                    return resp.request;\r\n                }\r\n            case \"getTaskResult\":\r\n                if (resp.request === \"CAPCHA_NOT_READY\") {\r\n                    return resp.request;\r\n                } else if (resp.status === 1) {\r\n                    if (!resp.request || resp.request == \"notpic\") {\r\n                        return [];\r\n                    }\r\n                    if (typeof resp.request == \"string\") {\r\n                        return resp.request\r\n                            .replace(\"coordinates:\", \"\")\r\n                            .split(\";\")\r\n                            .map(el => {\r\n                                const pairs = el.match(/\\d+/g);\r\n                                return { \"x\": pairs[0], \"y\": pairs[1] };\r\n                            });\r\n                    } else {\r\n                        return resp.request;\r\n                    }\r\n                } else {\r\n                    throw new CaptchaGetTaskResultError(resp.request);\r\n                }\r\n        }\r\n    }\r\n\r\n    async createTask(text, image) {\r\n        const url = `${this._url}/in.php`;\r\n        const common = {\r\n            key: this._apiKey,\r\n            method: \"base64\",\r\n            textinstructions: text,\r\n            body: image,\r\n            json: 1\r\n        };\r\n        let additional = {};\r\n        switch (this._service) {\r\n            case \"2captcha\":\r\n            case \"rucaptcha\":\r\n                additional.coordinatescaptcha = 1;\r\n                additional.softid = 2985;\r\n                break;\r\n            case \"captcha.guru\":\r\n                additional.click = \"recap\";\r\n                break;\r\n            default:\r\n                throw new Error(`Service ${this._service} not supported`);\r\n        }\r\n        const body = Object.assign({}, common, additional);\r\n        const response = await http.POST(url, body);\r\n        return this._response(response, \"createTask\");\r\n    }\r\n\r\n    async getTaskResult(taskId) {\r\n        const url = `${this._url}/res.php?key=${this._apiKey}&action=get&id=${taskId}&json=1`;\r\n        const response = await http.GET(url);\r\n        return this._response(response, \"getTaskResult\");\r\n    }\r\n}\r\n\r\n\r\nclass CapSolver {\r\n    constructor(options) {\r\n        /* @param options [object]\r\n           @property options.serial [string] : device serial number\r\n           @property options.service [string] : captcha solving service\r\n           @property options.apiKey [string] : API key for captcha solving service\r\n           @property options.attempts [number] : amount of captchas to solve\r\n           @property options.waitDuration [number] :\r\n               timeout for waiting of the main captcha selector, ms\r\n           @property options.solvingDuration [number] :\r\n               timeout for solving each captcha, ms\r\n           @property options.screenDelay [number] :\r\n               delay before the next captcha will loaded, ms\r\n           @property options.mainSelector [string] :\r\n               xpath for main frame selector with captcha\r\n           @property options.textSelector [string] :\r\n               xpath for selector with text description,\r\n               can contain multiple text lines\r\n           @property options.imageSelector [string] :\r\n               xpath for selector with captcha image\r\n           @property options.buttonSelector [string] :\r\n               xpath for submit button,\r\n               should not contain @text attribute in xpath request\r\n        */\r\n        this._serial = options.serial;\r\n        this._service = options.service;\r\n        this._apiKey = options.apiKey;\r\n        this._attempts = options.attempts;\r\n        this._waitDuration = options.waitDuration || 60000;\r\n        this._solvingDuration = options.solvingDuration || 60000;\r\n        this._screenDelay = options.screenDelay || 7000;\r\n        this._mainSelector = options.mainSelector || '//*[@resource-id=\"rc-imageselect\"]';\r\n        this._textSelector = options.textSelector || '//*[@resource-id=\"rc-imageselect\"]/*[@class=\"android.view.View\" and @index=\"1\"]//*[@text]/@text';\r\n        this._imageSelector = options.imageSelector || '//*[@resource-id=\"rc-imageselect\"]/*[@class=\"android.view.View\" and @index=\"2\"]';\r\n        this._buttonSelector = options.buttonSelector || '//*[@resource-id=\"rc-imageselect\"]//*[@resource-id=\"recaptcha-verify-button\"]';\r\n        return (async () => {\r\n            this._adb = await AdbUtils(this._serial);\r\n            return this;\r\n        })();\r\n    }\r\n    \r\n    async _getGrid() {\r\n        if (!this.hasOwnProperty(\"_device\")) {\r\n            this._device = config.getDevice(this._serial);\r\n        }\r\n        const b64Image = await this._device.takeScreenshot();\r\n        const buff = Buffer.from(b64Image, \"base64\");\r\n        const bounds = await this._selector.getElementAttribute(\r\n            this._imageSelector,\r\n            \"bounds\"\r\n        );\r\n        if (!bounds) {\r\n            throw new CaptchaImageNotFoundError(this._imageSelector);\r\n        }\r\n        const [sx, sy, ex, ey] = bounds;\r\n        this._gridShift = { x: sx, y: sy };\r\n\r\n        const stream = await sharp(buff)\r\n            .extract({\r\n                left: sx,\r\n                top: sy,\r\n                width: ex - sx,\r\n                height: ey - sy\r\n            })\r\n            .jpeg({ mozjpeg: true })\r\n            .toBuffer();\r\n        return await stream.toString(\"base64\");\r\n    }\r\n\r\n    async _getText() {\r\n        const elements = await this._selector.getSelectorsArray(this._textSelector);\r\n        if (!elements) {\r\n            throw new CaptchaDescriptionNotFoundError(this._textSelector);\r\n        }\r\n        let texts = [];\r\n        elements.forEach(el => {\r\n            const result = el.match(/(?<=text=\")(.+?)(?=\")/);\r\n            if (result) texts.push(result[1]);\r\n        });\r\n        return texts[1];\r\n    }\r\n\r\n    async _solveCurrent() {\r\n        const image = await this._getGrid();\r\n        const text = await this._getText();\r\n\r\n        const solver = new API(this._service, this._apiKey);\r\n        const captchaId = await solver.createTask(text, image);\r\n\r\n        const ts = Date.now();\r\n        while (Date.now() - ts < this._solvingDuration) {\r\n            let result = await solver.getTaskResult(captchaId);\r\n            if (result != \"CAPCHA_NOT_READY\") {\r\n                return result;\r\n            }\r\n            await new Promise(resolve => setTimeout(resolve, 1000));\r\n            \r\n        }\r\n        return false;\r\n    }\r\n\r\n    async solve() {\r\n        this._selector = await AMSelector(this._serial);\r\n        let status = await this._selector.waitForSelector(\r\n            this._mainSelector,\r\n            this._waitDuration,\r\n            200\r\n        );\r\n        if (!status) {\r\n            throw new CaptchaFrameNotFoundError(this._mainSelector);\r\n        }\r\n        for (let i=0; i < this._attempts; i++) {\r\n            let boundsArray = await this._solveCurrent();\r\n            if (boundsArray === false) return false;\r\n            if (boundsArray.length > 0) {\r\n                for (const el of boundsArray) {\r\n                    let x = this._gridShift.x + Number(el.x);\r\n                    let y = this._gridShift.y + Number(el.y);\r\n                    await this._adb.click(x, y);\r\n                };\r\n            }\r\n\r\n            const btnBounds = await this._selector.waitForSelector(\r\n                this._buttonSelector,\r\n                1000,\r\n                200,\r\n                { instantly: true, randBounds: true }\r\n            );\r\n            if (!btnBounds) {\r\n                throw new CaptchaButtonNotFoundError(this._buttonSelector);\r\n            }\r\n            let btnText = await this._selector.getElementAttribute(\r\n                this._buttonSelector,\r\n                \"text\"\r\n            )\r\n            btnText = btnText.toLowerCase();\r\n            if ([\"next\", \"далее\"].includes(btnText) || boundsArray.length === 0) {\r\n                await this._adb.click(...btnBounds);\r\n            }\r\n            await new Promise(resolve => setTimeout(resolve, this._screenDelay));\r\n\r\n            let status = await this._selector.waitForSelector(\r\n                this._mainSelector,\r\n                5000,\r\n                200\r\n            );\r\n            if (!status) return true;\r\n        }\r\n        return false;\r\n    }\r\n}\r\n\r\nmodule.exports = async options => await new CapSolver(options);",
+            "DataName": "AMCapSolver",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const fetch = require(\"node-fetch\");\nconst { writeFile } = require(\"fs\").promises;\nconst { HTTPClientError } = require(\"./AMError\");\n\n\nclass httpClient {\n    _response(url, response) {\n        if (response.ok) {\n            if (this._jsonResponse) {\n                return response.json();\n            }\n            return response.text();\n        } else {\n            throw new HTTPClientError(url, response);\n        }\n    }\n\n    async GET(url, json=true) {\n        this._jsonResponse = json;\n        const response = await fetch(url);\n        return await this._response(url, response);\n    }\n\n    async POST(url, body, json=true) {\n        this._jsonResponse = json;\n        const response = await fetch(\n            url,\n            {\n                method: \"post\",\n                body: JSON.stringify(body),\n                headers: {\"Content-Type\": \"application/json\"}\n            }\n        );\n        return await this._response(url, response);\n    }\n\n    async download(url, path) {\n        const response = await fetch(url);\n        if (!response.ok) {\n            throw new HTTPClientError(url, response);\n        }\n        const buffer = await response.buffer();\n        await writeFile(path, buffer);\n    }\n}\n\nmodule.exports = new httpClient();",
+            "DataName": "AMHTTPClient",
+            "DataType": 1,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, index] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getSelector(xpath, index);",
+            "DataName": "getXpathSelector",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getSelectorsArray(xpath);",
+            "DataName": "getAllXpathSelectors",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getSelectorsCount(xpath);",
+            "DataName": "getXpathSelectorsCount",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "const config =  require(\"../AMConfig\");\r\nconst AMSelector = require(\"../AMSelector\");\r\n\r\n\r\nconst [lang, serial, xpath, attr] = [[AM_NODE_PARAMS]];\r\nconfig.lang = lang;\r\n\r\nconst selector = await AMSelector(serial);\r\n[[AM_NODE_RESULT]] = await selector.getALLSelectorsAttrs(xpath, attr);",
+            "DataName": "getAllSelectorsAttribute",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        },
+        {
+            "Data": "// registerEvent\r\ntry {\r\n    const config =  require(\"../AMConfig\");\r\n    const events = require(\"../AMEvent\");\r\n    const AMSelector = require(\"../AMSelector\");\r\n    const adbUtils = require(\"../AMAdbUtils\");\r\n    const utils = require(\"../AMUtils\");\r\n\r\n\r\n    const [lang, serial, triggerName, trigger, basFuncName, basFuncArgs, isOnce] = [[AM_NODE_PARAMS]];\r\n    console.log(lang, serial, triggerName, trigger, basFuncName, basFuncArgs, isOnce)\r\n    config.lang = lang;\r\n\r\n    async function handleSelector(serial, trigger, basFuncName, basFuncArgs) {\r\n        const sel = await AMSelector(serial);\r\n        const res = await sel.waitForSelector(trigger, 3600000, 100);\r\n        if (res) {\r\n            await BAS_FUNCTION(basFuncName, basFuncArgs || {})\r\n        }\r\n    }\r\n\r\n    async function handleActivity(serial, trigger, basFuncName, basFuncArgs) {\r\n        const adb = await adbUtils(serial);\r\n        while (true) {\r\n            let activity = await adb.currentActivity();\r\n            if (activity === trigger) {\r\n                await BAS_FUNCTION(basFuncName, basFuncArgs || {})\r\n                return;\r\n            }\r\n        }\r\n    }\r\n\r\n    const evMethod = utils.convertBool(isOnce) ? \"once\" : \"on\";\r\n\r\n    switch (triggerName) {\r\n        case \"selector\":\r\n            events[evMethod](triggerName, async (options) => {\r\n                await handleSelector(...options)\r\n            })\r\n            break;\r\n        case \"activity\":\r\n            events[evMethod](triggerName, async (options) => {\r\n                await handleActivity(...options)\r\n            })\r\n            break;\r\n    }\r\n\r\n    events.emit(triggerName, [serial, trigger, basFuncName, basFuncArgs])\r\n} catch(e) {\r\n    console.error(e)\r\n}",
+            "DataName": "registerEvent",
+            "DataType": 0,
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0"
+        }
+    ],
+    "engine": [
+        "engine.js"
+    ],
+    "icon": "icon.png",
+    "info": {
+        "en": "Automation actions on android emulators.",
+        "ru": "Автоматизация действий на андроид эмуляторах."
+    },
+    "is_autogenerated": true,
+    "languages": [
+        {
+            "Name": "Node",
+            "Version": "18.10.0"
+        }
+    ],
+    "localize": {
+        "Parameter": {
+            "ru": "Параметр"
+        },
+        "not specified.": {
+            "ru": "не указан."
+        },
+        "is invalid.": {
+            "ru": "указан не верно."
+        },
+        "can be empty": {
+            "ru": "может быть пустым"
+        },
+        "Serial number": {
+            "ru": "Серийный номер"
+        },
+        "Result": {
+            "ru": "Результат"
+        },
+        "Additional settings": {
+            "ru": "Дополнительные настройки"
+        },
+        "Device serial number. Can be obtained from the list returned by the function <strong>\"Get Devices List\"</strong> or by entering the command <code>adb devices</code>.": {
+            "ru": "Серийный номер устройства. Можно получить из списка, возвращаемого функцией <strong>\"Получить список устройств\"</strong> или введя команду <code>adb devices</code>."
+        },
+        "Scroll direction": {
+            "ru": "Направление скролла"
+        },
+        "up": {
+            "ru": "вверх"
+        },
+        "down": {
+            "ru": "вниз"
+        },
+        "to the left": {
+            "ru": "влево"
+        },
+        "to the right": {
+            "ru": "вправо"
+        },
+        "Scrollable area": {
+            "ru": "Область скроллинга"
+        },
+        "The xpath of the element with the scroll area. If the element is not found, then the action will abort with an error.": {
+            "ru": "Xpath элемента с областью скролла. Если элемент не найден, то действие прервется с ошибкой."
+        },
+        "Element to scroll": { "ru":
+            "Элемент, до которого скроллить"
+        },
+        "The xpath of the element to scroll to. If the field is empty, then the scroll will continue until it reaches the end of the scroll area or the timeout expires.": {
+            "ru": "Xpath элемента, до которого нужно скроллить. Если поле пустое, то скролл будет происходить до тех пор, пока не достигнет конца области прокрутки или не истечет таймаут."
+        },
+        "<code>true</code> - element found;<br><code>false</code> - element not found.": {
+            "ru": "<code>true</code> - элемент найден;<br><code>false</code> - элемент не найден."
+        },
+        "Scroll in the specified direction until the expected element is found. If the element to be scrolled to is not specified, the scroll will continue until the timeout expires or the end of the scroll area is reached.": {
+            "ru": "Скроллить в указанном направлении, пока ожидаемый элемент не будет найден. Если элемент, до которого нужно скроллить, не указан, то скролл будет происходить до тех пор, пока не истечет таймаут или не будет достигнут конец области прокрутки."
+        },
+        "integer from": {
+            "ru": "целое число от"
+        },
+        "ordinal number of the found element (0 - first element).": {
+            "ru": "порядковый номер найденного элемента (0 - первый элемент)."
+        },
+        "Example": {
+            "ru": "Пример"
+        },
+        "Event": {
+            "ru": "Событие"
+        },
+        "Event ID or a string from the drop-down menu. For example, you can manually enter the code <code>3</code> or select <code>home</code> from the list.": {
+            "ru": "Id события или строка из выпадающего меню. Например, можно ввести вручную код <code>3</code> или выбрать из списка <code>home</code>."
+        },
+        "Execute keyEvent command": {
+            "ru": "Выполнить команду keyEvent"
+        },
+        "Command list": {
+            "ru": "Список команд"
+        },
+        "App name. You should specify the name of the application, not the activity.": {
+            "ru": "Название приложения. Следует указывать именно название приложения, а не активити."
+        },
+        "Delete application cache. All application data including database, files and registration profile will be completely deleted.": {
+            "ru": "Удалить кэш приложения. Все данные приложения, включая базу данных, файлы и профиль регистрации будут полностью удалены."
+        },
+        "Application name": {
+            "ru": "Название приложения"
+        },
+        "Delay": {
+            "ru": "Задержка"
+        },
+        "Maximum execution time": {
+            "ru": "Максимальное время выполнения"
+        },
+        "Element index": {
+            "ru": "Индекс элемента"
+        },
+        "Xpath expression": {
+            "ru": "Xpath выражение"
+        },
+        "Wait for the element to appear": {
+            "ru": "Ждать появления элемента"
+        },
+        "Delay between element searches, ms.<br><br>Can be empty if parameter": {
+            "ru": "Задержка между поисками элемента, мс.<br><br>Может быть пустым, если параметр"
+        },
+        "is not activated": {
+            "ru": "не активен"
+        },
+        "Maximum element wait time, ms.<br><br>Can be empty if parameter": {
+            "ru": "Максимальное время ожидания элемента, мс.<br><br>Может быть пустым, если параметр"
+        },
+        "The index of the expected element.<br>The first element is <code>0</code>.<br>If the number of elements is not known in advance and the last element is needed, then you can explicitly specify it in the xpath query": {
+            "ru": "Индекс ожидаемого элемента.<br>Первый элемент - <code>0</code>.<br>Если количество элементов заранее не известно и нужен последний элемент, то вы можете явно указать его в xpath запросе"
+        },
+        "Find element by xpath and clear field.": {
+            "ru": "Найти элемент по xpath и очистить поле."
+        },
+        "coordinate": {
+            "ru": "координата"
+        },
+        "Click on the screen at the specified coordinates.": {
+            "ru": "Кликнуть на экран по указанным координатам."
+        },
+        "Find element by xpath and click on it.": {
+            "ru": "Найти элемент по xpath и кликнуть по нему."
+        },
+        "This action gets the element's xpath coordinates and clicks on a random point in the element's area.": {
+            "ru": "Это действие получает координаты элемента по xpath и кликает в рандомную точку в области элемента."
+        },
+        "If the element was not found, then the action will return <code>false</code>.": {
+            "ru": "Если элемент не был найден, то действие вернет <code>false</code>."
+        },
+        "When performing this action, the thread may be terminated with an error. You can handle errors with the <strong>\"Ignore errors\"</strong> action.": {
+            "ru": "При выполнении данного действия поток может быть прерван с ошибкой. Вы можете обработать ошибки действием <strong>\"Игнорировать ошибки\"</strong>."
+        },
+        "You can use <strong>uiautomatorviewer.bat</strong>, which is included with <strong>Android Studio SDK tools</strong>, to search for items.": {
+            "ru": "Для поиска элементов можно использовать <strong>uiautomatorviewer.bat</strong>, который входит в <strong>Android Studio SDK tools</strong>."
+        },
+        "Check the existence of an element by xpath.": {
+            "ru": "Проверить существование элемента по xpath."
+        },
+        "Wait for the element to appear on the screen.": {
+            "ru": "Ждать появления элемента на экране."
+        },
+        "If you need to wait for several elements at once, you can concatenate xpath expressions using the separator <code>|</code>.": {
+            "ru": "Если нужно ждать сразу несколько элементов, вы можете конкатенировать xpath выражения через разделитель <code>|</code>."
+        },
+        "Delay between element searches, ms.": {
+            "ru": "Задержка между поисками элемента, мс."
+        },
+        "Returns <code>true</code> if the element to search is specified and it was found<br><code>false</code> - if the element was not found when the timeout or end of the scroll area was reached.": {
+            "ru": "Возвращает <code>true</code>, если элемент для поиска указан, и он был найден<br><code>false</code> - если элемент не был найден по достижению таймаута или конца области прокрутки."
+        },
+        "Maximum element wait time, ms.": {
+            "ru": "Максимальное время ожидания элемента, мс."
+        },
+        "Get one of the elements": {
+            "ru": "Получить один из элементов"
+        },
+        "Text": {
+            "ru": "Текст"
+        },
+        "The text to be entered.<br>Only English letters and numbers, Cyrillic is not supported.": {
+            "ru": "Текст для ввода.<br>Только английские буквы и цифры, кириллица не поддерживается."
+        },
+        "Clear the field before entering text": {
+            "ru": "Очистить поле перед вводом текста"
+        },
+        "Input text to the field.": {
+            "ru": "Ввести текст в поле."
+        },
+        "Close the application.": {
+            "ru": "Закрыть приложение."
+        },
+        "Server host": {
+            "ru": "Хост сервера"
+        },
+        "The IP address where the server will run. To run the server on the same machine where the script will run from, set <code>127.0.0.1</code>.": {
+            "ru": "IP адрес, на котором будет запущен сервер. Чтобы запустить сервер на той же машине, откуда будет запускаться скрипт, установите <code>127.0.0.1</code>."
+        },
+        "Server port": {
+            "ru": "Порт сервера"
+        },
+        "The port on which the server will run. If you are unsure, leave this setting as default.": {
+            "ru": "Порт, на котором будет запущен сервер. Если вы не уверены, оставьте этот прааметр по умолчанию."
+        },
+        "Attempts to start the server": {
+            "ru": "Попыток запустить сервер"
+        },
+        "The maximum number of attempts to start the server.": {
+            "ru": "Максимальное количество попыток запустить сервер."
+        },
+        "Maximum time to connect to the server, ms. If the connection is not established after this time, this action will return an error.": {
+            "ru": "Максимальное время подключения к серверу, мс. Если по истечению этого времени подключение не будет установлено, то это действие вернет ошибку."
+        },
+        "Launch the Appium server at the address specified in the \"Server host\" and \"Server port\" parameters.": {
+            "ru": "Запустить сервер Appium по адресу, указанному в параметрах \"Хост сервера\" и \"Порт сервера\"."
+        },
+        "When the server is started, it checks whether the connection is established at the specified address. If the connection is established, then the server is considered running. If you specify a port already occupied by another process, the server will be considered running and attempts to connect a device to this server will result in an error.": {
+            "ru": "При запуске сервера проверяется, установлено ли подключение по указанному адресу. Если подключение установлено, то сервер считается запущенным. Если вы укажете уже занятый другим процессом порт, то сервер будет считаться запущенным и попытки подключить устройство к этому серверу будут приводить к ошибке."
+        },
+        "You can check if a process is running on a port with the command: <code>netstat -a -o -n | find \"4723\"</code>, where <code>4723</code> is the port to check. If the result is empty, then the port is free.": {
+            "ru": "Проверить запущен ли процесс на порту можно командой: <code>netstat -a -o -n | find \"4723\"</code>, где <code>4723</code> - проверяемый порт. Если результат будет пустым, значит порт свободен."
+        },
+        "This action must be called once at the beginning of the script before connecting to devices.": {
+            "ru": "Это действие необходимо вызвать один раз в начале скрипта перед подключением к устройствам."
+        },
+        "This action can either start the server process, or only pass the settings of the server <strong>you have already started</strong> to BAS. When starting the server with this action, device connection errors may occur. Therefore, it is highly recommended that you start appium yourself before running the script. You can do this with the command:": {
+            "ru": "Данное действие может как запускать процесс сервера, так и только передавать в BAS настройки уже <strong>запущенного вами</strong> сервера. При запуске сервера этим действием могут происходить ошибки при подключении устройств. Поэтому настоятельно рекомендуется перед запуском скрипта самостоятельно выполнять запуск appium. Сделать это можно командой:"
+        },
+        "the server will be started at the default address": {
+            "ru": "сервер будет запущен по дефолтному адресу"
+        },
+        "To pass an address and/or port when starting the server, use the command: <code>appium -a 127.0.0.1 -p 4723</code>, where <code>127.0.0.1</code> - your host, <code>4723</code> - your port.": {
+            "ru": "Чтобы передать адрес или порт при запуске сервера, используйте команду: <code>appium -a 127.0.0.1 -p 4723</code>, где <code>127.0.0.1</code> - ваш хост, <code>4723</code> - ваш порт."
+        },
+        "If you started the server yourself, then don't forget to specify the same host and port as the running server in the settings for this action.": {
+            "ru": "Если вы запустили сервер самостоятельно, то не забудьте указать в настройках этого действия те же хост и порт, что и у запущенного сервера."
+        },
+        "Stop a previously running server. If the server has not started, then this action will return an error.": {
+            "ru": "Остановить ранее запущенный сервер. Если сервер не запускался, то это действие вернет ошибку."
+        },
+        "Delay between commands, ms": {
+            "ru": "Задержка между командами, мс"
+        },
+        "Attempts to establish a connection": {
+            "ru": "Попыток установить соединение"
+        },
+        "Connect to device. This action is required for the script to interact with the emulator (except for sending commands directly via <code>adb</code>). Thus, it is better to run it from the beginning of the script and after starting the server.": {
+            "ru": "Подключиться к устройству. Это действие требуется для взаимодействия скрипта с эмулятором (кроме отправки команд напрямую через <code>adb</code>). Таким образом его лучше вызывать из начала скрипта и после запуска сервера."
+        },
+        "Start": {
+            "ru": "Начальная"
+        },
+        "End": {
+            "ru": "Конечная"
+        },
+        "Duration, ms": {
+            "ru": "Продолжительность, мс"
+        },
+        "Drag the element along the coordinates.": {
+            "ru": "Перетащить элемент по координатам."
+        },
+        "String with XML dump.": {
+            "ru": "Строка с XML дампом."
+        },
+        "Get XML of the current screen.": {
+            "ru": "Получить XML текущего экрана."
+        },
+        "JSON object with element attributes and their values.": {
+            "ru": "JSON объект с аттрибутами элемента и их значениями."
+        },
+        "Get all attributes of an element. The result will be returned as a JSON object if the element is found, if not - <code>false</code>.": {
+            "ru": "Получить все аттрибуты элемента. Результат будет возвращен в виде JSON объекта, если элемент найден, если нет - <code>false</code>."
+        },
+        "Current activity.": {
+            "ru": "Текущее активити."
+        },
+        "Get the activity of a running application.": {
+            "ru": "Получить активити запущенного приложения."
+        },
+        "Result format": {
+            "ru": "Формат результата"
+        },
+        "JSON object": {
+            "ru": "JSON объект"
+        },
+        "JSON string": {
+            "ru": "JSON строка"
+        },
+        "The result can be saved either as a JSON object or as a string.<br><br>Use an object to get the data you need, and a string to write to a file or log.": {
+            "ru": "Результат может быть сохранен либо в виде JSON объекта, либо в виде строки.<br><br>Используйте объект, чтобы получить нужные данные, а строку - для записи в файл или лог."
+        },
+        "Get information about the device.": {
+            "ru": "Получить информацию об устройстве."
+        },
+        "List of running devices.": {
+            "ru": "Список запущенных устройств."
+        },
+        "Run the command <code>adb devices</code> and save the running devices to the list.": {
+            "ru": "Выполнить команду <code>adb devices</code> и сохранить запущенные устройства в список."
+        },
+        "Attribute name": {
+            "ru": "Название аттрибута"
+        },
+        "If the element is found, then the action will return the value of this attribute, if not found - <code>null</code>.<br>The value of some attributes can be <code>true</code> / <code>false</code>, and for coordinates it is a list of 4 numbers.": {
+            "ru": "Если элемент найден, то действие вернет значение этого аттрибута, если не найден - <code>null</code>.<br>Значением некоторых аттрибутов может быть <code>true</code> / <code>false</code>, а для координат - это список из 4 чисел."
+        },
+        "Get an element attribute.": {
+            "ru": "Получить аттрибут элемента."
+        },
+        "List of installed applications.": {
+            "ru": "Список установленных приложений."
+        },
+        "Get a list of installed applications.": {
+            "ru": "Получить список установленных приложений."
+        },
+        "File path": {
+            "ru": "Путь к файлу"
+        },
+        "The path to the application file on the computer.": {
+            "ru": "Путь к файлу приложения на компьютере."
+        },
+        "<code>true</code> - the application was successfully installed;<br><code>false</code> - the application was not installed.": {
+            "ru": "<code>true</code> - приложение успешно установлено;<br><code>false</code> - приложение не установлено."
+        },
+        "Install APK on the device.": {
+            "ru": "Установить APK на устройство."
+        },
+        "Activity name": {
+            "ru": "Название активити"
+        },
+        "The name of activity. Important! The activity should be passed, not the application name. You can get it by launching the app and doing the <strong>\"Get Current Activity\"</strong> action.": {
+            "ru": "Название активити приложения. Важно! Передавать следует именно активити, а не название приложения. Вы можете получить его, запустив приложение и выполнив действие <strong>\"Получить текущее активити\"</strong>."
+        },
+        "Open app activity.": {
+            "ru": "Открыть активити приложения."
+        },
+        "This action does not wait for app elements to load. If you want to interact with an element in the application after it has been opened, call the <strong>\"Wait for element\"</strong> action after that.": {
+            "ru": "Это действие не ждет загрузки элементов приложения. Если требуется взаимодействие с элементом в приложении после его открытия, то вызовите действие <strong>\"Ждать элемент\"</strong> после этого."
+        },
+        "The link with <code>http://</code>.": {
+            "ru": "Ссылка с <code>http://</code>."
+        },
+        "Open link in default browser.": {
+            "ru": "Открыть ссылку в браузере по умолчанию."
+        },
+        "Path to a folder or file on the device": {
+            "ru": "Путь к папке или файлу на устройстве"
+        },
+        "Path to a folder or file on the device, for example:<br><code>/sdcard/myfile.txt</code><br>or<br><code>/sdcard/mydir</code>.": {
+            "ru": "Путь к папке или файлу на устройстве, например:<br><code>/sdcard/myfile.txt</code><br>или<br><code>/sdcard/mydir</code>."
+        },
+        "Path to a folder on the computer": {
+            "ru": "Путь к папке на компьютере"
+        },
+        "Download a file or folder from your device to your computer. If the file or folder is not found, the thread will br finished with an error. You can handle it with the <strong>\"Ignore Errors\"</strong> action.": {
+            "ru": "Скачать файл или папку с устройства на компьютер. Если файл или папка не будут найдены, то поток прервется с ошибкой. Вы можете обработать ее с помощью действия <strong>\"Игнорировать ошибки\"</strong>."
+        },
+        "Path to a folder or file on a computer": {
+            "ru": "Путь к папке или файлу на компьютере"
+        },
+        "Path to the folder on the device": {
+            "ru": "Путь к папке на устройстве"
+        },
+        "Path to the folder on the device. For example:<br><code>/data/data/</code><br>or<br><code>/sdcard/</code>.": {
+            "ru": "Путь к папке на устростве. Например:<br><code>/data/data/</code><br>или<br><code>/sdcard/</code>."
+        },
+        "Upload a local file or folder to the device. If the file or folder is not found, the thread will be finished with an error. You can handle it with the <strong>\"Ignore Errors\"</strong> action.": {
+            "ru": "Загрузить локальный файл или папку на устройство. Если файл или папка не будут найдены, то поток прервется с ошибкой. Вы можете обработать ее с помощью действия <strong>\"Игнорировать ошибки\"</strong>."
+        },
+        "Command": {
+            "ru": "Команда"
+        },
+        "The command to be executed in the console.<br><br>Space is the separator between commands. Therefore, if the expression contains spaces, then it must be wrapped in quotes. Relevant, for example, for paths to WIndows files.<br><br>Incorrect:<br><code>adb pull C://file with spaces.txt /data/data/</code><br><br> Correct:<br><code>adb pull \"C://file with spaces.txt\" /data/data/</code>.": {
+            "ru": "Команда, которая будет выполнена в консоли.<br><br>Пробел является разделителем между командами. Поэтому если в выражении есть пробелы, то его необходимо обернуть в кавычки. Актуально, например, для путей к файлам WIndows.<br><br>Неправильно:<br><code>adb pull C://file with spaces.txt /data/data/</code><br><br>Правильно:<br><code>adb pull \"C://file with spaces.txt\" /data/data/</code>."
+        },
+        "list of the strings": {
+            "ru": "список строк"
+        },
+        "string": {
+            "ru": "строка"
+        },
+        "The result of executing the command as a list of strings or a string.": {
+            "ru": "Результат выполнения команды в виде списка из строк или строки."
+        },
+        "Run command in console. Useful for running <code>adb</code> commands.": {
+            "ru": "Выполнить команду в консоли. Полезно для запуска команд <code>adb</code>."
+        },
+        "Unlike the standard module <strong>\"Start process\"</strong>, this action does not parse extra \"garbage\" from the response and automatically throws an exception in case of an error.": {
+            "ru": "В отличие от стандартного модуля <strong>\"Запустить процесс\"</strong>, это действие не парсит лишний \"мусор\" из ответа и автоматически выбрасывает исключение в случае ошибки."
+        },
+        "If you need to handle exceptions yourself, you can do this with the <strong>\"Ignore errors\"</strong> action.": {
+            "ru": "Если вам необходимо самостоятельно обрабатывать исключения, вы можете это сделать с помощью действия <strong>\"Игнорировать ошибки\"</strong>."
+        },
+        "Disconnect from the device. Each device has its own session that consumes computer resources. Therefore, if you don't need to work with the device, you can disconnect from it with this action.<br>It is recommended to put this action at the end of <code>Main</code> function and before \"Stop server\" action.": {
+            "ru": "Отключиться от устройства. Для каждого устройства создается своя сессия, которая потребляет ресурсы компьютера. Поэтому если работа с утстройством не требуется, вы можете завершить ее с помощью этого действия.<br>Рекомендуется ставить это действие в конце функции <code>Main</code> и перед действием \"Остановить сервер\"."
+        },
+        "Swipe from start to end coordinates.": {
+            "ru": "Свайпнуть от стартовых до конечных коррдинат."
+        },
+        "Image quality": {
+            "ru": "Качество изображения"
+        },
+        " from 1 to 100.": {
+            "ru": " от 1 до 100."
+        },
+        "Save method on the device": {
+            "ru": "Метод сохранения на устройстве"
+        },
+        "external storage": {
+            "ru": "внешнее хранилище"
+        },
+        "user storage": {
+            "ru": "папка пользователя"
+        },
+        "</code> - save a screenshot on the device to external storage (useful for some real phones that do not have permissions to write to the user folder);<br><code>": {
+            "ru": "</code> - сохранять скриншот на устройстве во внешнее хранилище (полезно для некоторых реальных телефонов, у которых нет прав для записи в папку пользователя);<br><code>"
+        },
+        "</code> - to the user's path.": {
+            "ru": "</code> - по пути пользователя."
+        },
+        "A string in BASE64 format.": {
+            "ru": "Строка в формате BASE64."
+        },
+        "Take a screenshot and save it to the variable in BASE64 format.": {
+            "ru": "Сделать скриншот и сохранить его в переменную в формате BASE64."
+        },
+        "<code>true</code> - the application was successfully uninstalled;<br><code>false</code> - the application was not uninstalled, it may not have been installed.": {
+            "ru": "<code>true</code> - приложение успешно удалено;<br><code>false</code> - приложение не удалено, возможно, оно не было установлено."
+        },
+        "Uninstall the app from the device.": {
+            "ru": "Удалить приложение с устройства."
+        },
+        "Delay between checks, ms.": {
+            "ru": "Пауза между проверками, мс."
+        },
+        "How long to wait for the activity to appear, ms.": {
+            "ru": "Сколько ждать появления активити, мс."
+        },
+        "<code>true</code> - activity exists;<br><code>false</code> - does not exist.": {
+            "ru": "<code>true</code> - активити существует;<br><code>false</code> - не существует."
+        },
+        "Wait for Activity.": {
+            "ru": "Ждать активити."
+        },
+        "Make a long click on the specified coordinates.": {
+            "ru": "Сделать долгий клик по указанным координатам."
+        },
+        "Find element by xpath and long click on it.": {
+            "ru": "Найти элемент по xpath и сделать длинный клик по нему."
+        },
+        "This action gets the element's xpath coordinates and clicks on a random point in its scroll area.": {
+            "ru": "Это действие получает координаты элемента по xpath и кликает в рандомную точку его области скролла."
+        },
+        "<code>true</code> - the element is gone;<br><code>false</code> - timeout elapsed, but the element is still available.": {
+            "ru": "<code>true</code> — элемент отсутствует;<br><code>false</code> — время ожидания истекло, но элемент все еще доступен."
+        },
+        "Waits a specified length of time for an element to become undetectable. This method waits until an element is no longer matchable, or until the timeout has elapsed.": {
+            "ru": "Ожидает указанный период времени, пока элемент не станет необнаружимым. Этот метод ожидает, пока элемент больше не будет доступен или пока не истечет время ожидания."
+        },
+        "An element becomes undetectable when passed xpath does not match selector on screen, because the element has either changed its state or is no longer displayed.": {
+            "ru": "Элемент считается недоступным для обнаружения, когда переданный xpath не совпадает с селектором на экране, потому что элемент либо изменил свое состояние, либо больше не отображается."
+        },
+        "You can use this action when attempting to wait for some long operation to complete, such as downloading a large file or connecting to a remote server.": {
+            "ru": "Это действие можно использовать, чтобы дождаться завершения какой-либо длительной операции, например загрузки большого файла или подключения к удаленному серверу."
+        },
+        "Set up device": {
+            "ru": "Настроить устройство"
+        },
+        "<code>true</code> - the device will be checked for readiness to launch, the applications required to interact with the emulator will be installed on it;<br><code>false</code> - the device check will be skipped (should be selected only if this device was previously launched), takes less time than with the check enabled;<br><code>auto</code> - if the device is connected for the first time (as part of the template launch), then it will be prepared for connection, upon repeated launches verification will be skipped.": {
+            "ru": "<code>true</code> - устройство будет проверено на готовность к запуску, на него будут установлены приложения, требуемые для взаимодействия с эмулятором;<br><code>false</code> - проверка устройства будет пропущена (следует выбирать только если это устройство ранее запускалось), занимает меньше времени, чем с включенной проверкой;<br><code>auto</code> - если устройство подключается в первый раз (в рамках запуска шаблона), то оно будет подготовлено для подключения, при повторных запусках проверка будет пропущена."
+        },
+        "Time to wait for the next command, sec": {
+            "ru": "Время ожидания след. команды, сек"
+        },
+        "The maximum time the appium server waits for the next command, in seconds. After this timeout, the current device session will be deleted.": {
+            "ru": "Максимальное время ожидания сервером appium следующей команды, в секундах. По истечении этого таймаута текущая сессия устройства будет удалена."
+        },
+        "The name of the application or its current activity.": {
+            "ru": "Название приложения или его текущего активити."
+        },
+        "<code>true</code> - application/activity is running;<br><code>false</code> - not running.": {
+            "ru": "<code>true</code> - приложение/активити запущено;<br><code>false</code> - не запущено."
+        },
+        "Find out if an app or activity is running.": {
+            "ru": "Узнать, запущено ли приложение или активити."
+        },
+        "<code>true</code> - application is installed;<br><code>false</code> - not installed.": {
+            "ru": "<code>true</code> - приложение установлено;<br><code>false</code> - не установлено."
+        },
+        "Find out if an app is installed.": {
+            "ru": "Узнать, установлено ли приложение."
+        },
+        "Open notification panel. It can then be closed by dispatching the <strong>\"back\"</strong> event in the \"Send system command\" action.": {
+            "ru": "Открыть панель уведомлений. После этого ее можно закрыть, отправив событие <strong>\"back\"</strong> в действии \"Отправить системную команду\"."
+        },
+        "Captcha solving service": {
+            "ru": "Сервис решения капчи"
+        },
+        "The service with which the captcha will be solved.<br><code>captcha.guru</code> - the fastest, due to the use of neural networks, but has a lower success rate<br><code>2captcha</code> and <code>rucaptcha</code> solve captcha with the help of workers, due to which the success rate increases, but the solution process takes more time.": {
+            "ru": "Сервис, с помощью которого будет решаться капча.<br><code>captcha.guru</code> - наиболее быстрый, за счет использования нейронных сетей, но имеет более низкий процент успехов<br><code>2captcha</code> и <code>rucaptcha</code> решают капчу с помощью работников, за счет чего повышается процент успехов, но процесс решения занимает больше времени."
+        },
+        "Service API key": {
+            "ru": "API ключ сервиса"
+        },
+        "Maximum captchas": {
+            "ru": "Максимальное количество капч"
+        },
+        "The maximum number of captchas that will be sent to the service for recognition. If the captcha is not solved when this limit is reached, then the process will be interrupted with an unsuccessful result.<br><strong>Note:</strong> ReCaptcha v2 is solved by clicks, each screen with captcha is sent for recognition separately, and for each such action there will be debit money from your balance.<br>This parameter allows you to limit the number of captchas shown and the balance wasted.": {
+            "ru": "Максимальное количество капч, которые будут отправлены в сервис на распознавание. Если по достижению этого лимита капча не будет решена, то процесс будет прерван с неудачным результатом.<br><strong>Примечание:</strong> ReCaptcha v2 решается кликами, каждый экран с капчей отправляется на распознавание отдельно, и за каждое такое действие будут списываться деньги с вашего баланса.<br>Этот параметр позволяет ограничивать количество показанных капч и расходы баланса впустую."
+        },
+        "Captcha waiting timeout, ms": {
+            "ru": "Таймаут ожидания капчи, мс"
+        },
+        "How long to wait for the appearance of the selector with captcha, ms.": {
+            "ru": "Сколько времени ждать появления селектора с капчей, мс."
+        },
+        "Captcha solving timeout, ms": {
+            "ru": "Таймаут решения капчи, мс"
+        },
+        "Maximum captcha solving time, ms.<br>This parameter is responsible for the time taken to solve each captcha by the recognition service, and not for the duration of the entire action.": {
+            "ru": "Максимальное время решения капчи, мс.<br>Этот параметр отвечает за время решения каждой капчи сервисом распознавания, а не за продолжительность всего действия."
+        },
+        "Delay between captchas, ms": {
+            "ru": "Задержка между капчами, мс"
+        },
+        "Delay between clicking on the received coordinates and sending a request to solve the next captcha, ms. This parameter is needed because It takes time to load the captcha.": {
+            "ru": "Задержка между кликами по полученным координатам и отправкой запроса на решение следующей капчи, мс.<br>Этот параметр нужен, т.к. на загрузку капчи требуется время."
+        },
+        "Xpath of the main selector": {
+            "ru": "Xpath основного селектора"
+        },
+        "Xpath of the main frame with captcha. It determines whether the captcha appeared on the first load and whether it disappeared when it is checked whether the captcha is solved or not.<br>If empty, the default xpath will be applied.": {
+            "ru": "Xpath основного фрейма с капчей. По нему определяется, появилась ли капча при первой загрузке и пропала ли, когда проверяется решена ли капча или нет.<br>Если пусто, то будет применен xpath по умолчанию."
+        },
+        "Xpath with description": {
+            "ru": "Xpath с описанием"
+        },
+        "Xpath selector with text instructions for captcha. Contains multiple lines of text.<br>If empty, the default xpath will be applied.": {
+            "ru": "Xpath селектора с текстовой инструкцией к капче. Содержит несколько строк с текстом.<br>Если пусто, то будет применен xpath по умолчанию."
+        },
+        "Xpath with image": {
+            "ru": "Xpath с изображением"
+        },
+        "Xpath of the selector that contains the image.<br>If empty, the default xpath will be applied.": {
+            "ru": "Xpath селектора, содержащего изображение.<br>Если пусто, то будет применен xpath по умолчанию."
+        },
+        "Xpath of button": {
+            "ru": "Xpath кнопки"
+        },
+        "Xpath of the button to submit the result. Xpath request must not contain <code>@text</code> attribute.<br>If empty, the default xpath will be applied.": {
+            "ru": "Xpath кнопки для отправки результата. Xpath запрос не должен содержать аттрибут <code>@text</code>.<br>Если пусто, то будет применен xpath по умолчанию."
+        },
+        "<code>true</code> - captcha solved successfully;<br><code>false</code> - captcha was not solved.": {
+            "ru": "<code>true</code> - капча решена успешно;<br><code>false</code> - капча не была решена."
+        },
+        "Solve captcha ReCaptcha v2 with clicks.": {
+            "ru": "Решить капчу ReCaptcha v2 кликами."
+        },
+        "If the elements are found, then the action will return the values of their attributes, if not found - <code>false</code>.<br>The value of some attributes can be <code>true</code> / <code>false</code>, and for coordinates it is a list of 4 numbers.": {
+            "ru": "Если элементы найдены, то действие вернет значения их атрибутов, если не найдены - <code>false</code>.<br>Значение некоторых атрибутов может быть <code>true</code> / <code>false</code>, а для координат это список из 4-х чисел."
+        },
+        "Get a list of attributes for each element.": {
+            "ru": "Получить список аттрибутов каждого элемента."
+        },
+        "If the elements are found, then the action will return the list of their XML, if not found - <code>false</code>.": {
+            "ru": "Если элементы найдены, то действие вернет список их XML, если не найдены - <code>false</code>."
+        },
+        "Get an XML list of each element.": {
+            "ru": "Получить список XML каждого элемента."
+        },
+        "If the element is found, then the action will return its XML, if not found - <code>false</code>.": {
+            "ru": "Если элемент найден, то действие вернет его XML, если не найден - <code>false</code>."
+        },
+        "Get the XML of the element.": {
+            "ru": "Получить XML элемента."
+        },
+        "Number of elements found.": {
+            "ru": "Количество найденных элементов."
+        },
+        "Get the number of elements.": {
+            "ru": "Получить количество элементов."
+        },
+        "Event type": {
+            "ru": "Тип события"
+        },
+        "Event type for watching.": {
+            "ru": "Тип события для отслеживания."
+        },
+        "String for watching": {
+            "ru": "Строка для отслеживания"
+        },
+        "Xpath string or activity name, that call your function.": {
+            "ru": "Xpath строка или название активити, которая вызовет вашу функцию."
+        },
+        "BAS function": {
+            "ru": "Функция BAS"
+        },
+        "Name of the BAS function, that called when string for watching appears.": {
+            "ru": "Название функции BAS, которая вызовется, когда появится строка для отслеживания."
+        },
+        "BAS function arguments": {
+            "ru": "Аргументы функции BAS"
+        },
+        "An object with function arguments and their values as in following example:": {
+            "ru": "Объект с аргументами функции и ее значениями, как показано в следующем примере:"
+        },
+        "If a function has no arguments, leave this field empty.": {
+            "ru": "Если функция не имеет аргументов, оставьте это поле пустым."
+        },
+        "Call once": {
+            "ru": "Вызвать один раз"
+        },
+        "Xpath selector": {
+            "ru": "Xpath селектора"
+        },
+        "App activity": {
+            "ru": "Активити приложения"
+        }
+    },
+    "major_version": 2,
+    "minor_version": 9,
+    "modules": [
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "child_process",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "fs",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "xpath",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "xmldom",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "teen_process",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "webdriverio",
+            "ModuleVersion": "8.40.3"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "node-fetch",
+            "ModuleVersion": "*"
+        },
+        {
+            "LanguageName": "Node",
+            "LanguageVersion": "18.10.0",
+            "ModuleName": "sharp",
+            "ModuleVersion": "*"
+        }
+    ],
+    "name": "AndroidManager"
+}
